@@ -1,6 +1,6 @@
 # HEI Recipe Chain Enhancements
 
-Minecraft 1.12.2 的 HEI 非官方增强分支。维护者：**绫宁（Xingmingfu）**。
+Minecraft 1.12.2 的 HEI 非官方增强分支。维护者：**绫宁**。
 基于 [CleanroomMC/HadEnoughItems](https://github.com/CleanroomMC/HadEnoughItems) 4.29.13，设计参考 [StardustMINUS-01/JustEnoughItems](https://github.com/StardustMINUS-01/JustEnoughItems)。
 
 ## 功能
