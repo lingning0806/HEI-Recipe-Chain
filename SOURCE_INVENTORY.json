@@ -1,0 +1,3649 @@
+[
+  {
+    "path": ".gitignore",
+    "change": "unchanged",
+    "sha256": "61258e34067469697119c9189390292e1d18bdb9a166306da77b4c3cf15e2f7f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "LICENSE.txt",
+    "change": "unchanged",
+    "sha256": "108c93a97f3011c196b8226f5019a9c09ade318fe3a802be2f7f5ddb2c3a0d04",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "README.md",
+    "change": "unchanged",
+    "sha256": "838562132990edf8bff55000d8a5579c307486ae2e569c8bc73739a421d65ef5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "build.gradle",
+    "change": "modified",
+    "sha256": "407dd36292630a9b04cfee8f63c22980bb04ba6457e9725b23b79886963d338b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradle/scripts/dependencies.gradle",
+    "change": "unchanged",
+    "sha256": "9dcff83169247a13db00bf2161a60d52e1d1d3acc69d405d9a588dec11000b81",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradle/scripts/extra.gradle",
+    "change": "unchanged",
+    "sha256": "6a76c311eb4838fb240162e568fc699cb2d0d7e684204bfc58dd1c7167b44f35",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradle/scripts/helpers.gradle",
+    "change": "unchanged",
+    "sha256": "ea7f2bce1f26e4674d7b864697ae1de53f4a89f0694209baeceaf19938580258",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradle/scripts/publishing.gradle",
+    "change": "unchanged",
+    "sha256": "bafad9070eefa7da4218e578acb34fc182fa40e4fd65330fc755dce8a1d90d1f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradle/wrapper/gradle-wrapper.jar",
+    "change": "unchanged",
+    "sha256": "b5ca811c057b3eb4164c78f4155d667c6092ff98ba91a4c90d29e127426f37a7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradle/wrapper/gradle-wrapper.properties",
+    "change": "unchanged",
+    "sha256": "a65e75ec350472396e9810bb2af1170763367f11e3c8db72f966cc4c9a1fc6f3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradle.properties",
+    "change": "modified",
+    "sha256": "58c3c910172a0ae9d9dfdd520948e2b69123c25fd9e581dc991eee6d0c31c143",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradlew",
+    "change": "unchanged",
+    "sha256": "fb3cbfe6d066ee52bc07f62ed61ff77bde195384f52496c94280a83008d9f531",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "gradlew.bat",
+    "change": "unchanged",
+    "sha256": "18774a0ac0203f6893bf1db3291a0d77f06cd1b4dca2a43b51e7009da3e28cfa",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "settings.gradle",
+    "change": "modified",
+    "sha256": "94c359ec049c77bf936df3b5370695f91c148fbee6efe21e4f46c272cf8190db",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/BlankModPlugin.java",
+    "change": "unchanged",
+    "sha256": "157e66b5023182ca529a63d7fe5ce5388342f3e3b85d507f676d7b91f5bf9555",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IBookmarkOverlay.java",
+    "change": "unchanged",
+    "sha256": "2fe533985019347375b8dc330762466f196e1f0ba5deb24603d19f92e5253878",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IGuiHelper.java",
+    "change": "unchanged",
+    "sha256": "2611aca0eaa34b1bbd85c946a69cc139509ebba531888891527da9a01856ea03",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IIngredientFilter.java",
+    "change": "unchanged",
+    "sha256": "67bbb4fcb0b0aa282bc8c0471d6da26a09ef3388756e2b9ed7f17d2829730679",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IIngredientListOverlay.java",
+    "change": "unchanged",
+    "sha256": "b307459757915f16bd8c9c0711a578340e9864067c7d43700d9b3ac6fb0addfc",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IItemBlacklist.java",
+    "change": "unchanged",
+    "sha256": "a3be72636956615dbe9f6406395a3081e42e90d5f6750290035389fbb87e3411",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IItemListOverlay.java",
+    "change": "unchanged",
+    "sha256": "423ab516d2237ad4624dc9bacbff4a075b433013f7d7fd33f2fc851301dd6ace",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IJeiHelpers.java",
+    "change": "unchanged",
+    "sha256": "c131dbc6b83e66fe10d536689ca3c26744e10a092f2a298537343906620ed6e0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IJeiRuntime.java",
+    "change": "unchanged",
+    "sha256": "c45a4703b40d646e73ba3d2511cd59203d9adc5786b23b1a79bfcffecd764f3b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IModPlugin.java",
+    "change": "unchanged",
+    "sha256": "55565d7ccef3d229373c1b7a34612a46bf876354c6d32bec3316274d0ea838f9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IModRegistry.java",
+    "change": "unchanged",
+    "sha256": "fef495fe322eb045764390d0b8cebf99a95600ee8e8812d720ed1f39bd2c93d3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IRecipeRegistry.java",
+    "change": "unchanged",
+    "sha256": "533534a151a3d120a2b6ff82937782c2674cbc097c937208d2c072a424d6e43b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/IRecipesGui.java",
+    "change": "unchanged",
+    "sha256": "547e57589c62232631654a19cc351930c577766a0f0f9690dfeca87b47faadf7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ISubtypeRegistry.java",
+    "change": "unchanged",
+    "sha256": "20ed7edd4f175cbe78a2cc47789fef30125ba6d109f78babce96ffdbc9333630",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/JEIPlugin.java",
+    "change": "unchanged",
+    "sha256": "c37f1c4eaba5b28a96fb41fd979cc7c2d338bd292da4d3fd5ba0106a0d95a9d4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/BlankAdvancedGuiHandler.java",
+    "change": "unchanged",
+    "sha256": "1a5aec8a0c6156b8be6eaf5c9d6bf2bdd8af53aea9442640aa198f5b6020d2a7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IAdvancedGuiHandler.java",
+    "change": "unchanged",
+    "sha256": "bf01584ed404272b5fb061fd37b6d5fba7ee7b26c09c371d37279fac79375f6a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/ICraftingGridHelper.java",
+    "change": "unchanged",
+    "sha256": "7fa6ab176fa8f4633ea704fa0ed66725619722fed63741be82b2dcfea3a74106",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IDrawable.java",
+    "change": "unchanged",
+    "sha256": "33022fa8949575cf4ce772a0d543797f8d291ab4f96c0f98f0a5c442160211ca",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IDrawableAnimated.java",
+    "change": "unchanged",
+    "sha256": "2565a5a1792da664535a0a1e539266fd3c5ac1ed4da0d34d7b867c14725ad234",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IDrawableBuilder.java",
+    "change": "unchanged",
+    "sha256": "0fd13baf8a23c92788fc45874ca446ca0dbd43596196c37a60f4785403e192a0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IDrawableStatic.java",
+    "change": "unchanged",
+    "sha256": "4480d556e56cbe1813d13761b5737c364d569542d035e6576687b58bb8d50b5b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGhostIngredientHandler.java",
+    "change": "unchanged",
+    "sha256": "7e78bf55db51b834a73fe658ddb90e16f1a705a651e3566f74eb5eff2bffe368",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGlobalGuiHandler.java",
+    "change": "unchanged",
+    "sha256": "7af4190f3a4c7b9ec3184da80ebea0256d4d581e6a8d3efb1851fc61a1d94c10",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGuiFluidStackGroup.java",
+    "change": "unchanged",
+    "sha256": "e31363d587c3fa9476663077eda2bc897aef67a24a670724ef45108e8b8b4d39",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGuiIngredient.java",
+    "change": "unchanged",
+    "sha256": "e12596506e6810fc8713e8b515856aafe92da2429452693557b7c2ec13241a0a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGuiIngredientGroup.java",
+    "change": "unchanged",
+    "sha256": "48dac9435a8c96d84af0c5318462bfce7e9c8c7a286bb4d55319e9f78ac06ab9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGuiItemStackGroup.java",
+    "change": "unchanged",
+    "sha256": "11d48c6e267474cacc4dcb7457bd706a44f183d377d803e7a7078015d5e12909",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGuiProperties.java",
+    "change": "unchanged",
+    "sha256": "cffa1fe2f1fafbb49ae973017f23dbc1926b29a94a54bdd8649647a2a5c4454c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IGuiScreenHandler.java",
+    "change": "unchanged",
+    "sha256": "7ae42643393ba3e90d04b6679691d8e666e5a97439e71b29c67358ed30cf2b17",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IRecipeLayout.java",
+    "change": "unchanged",
+    "sha256": "6466cbf292fc36c6900cf9d496a95db78c56089b19f430c5da56aad2e44757e1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/IRecipeLayoutDrawable.java",
+    "change": "unchanged",
+    "sha256": "a869d13e9332bf3ea7549226af62dbe1e3fa5963458d4bf4aee71618e2d479b6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/ITickTimer.java",
+    "change": "unchanged",
+    "sha256": "a726a76b73b73419a00f4f66b8c2fe4e9dc5d4b75be62cf518a494299228032d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/ITooltipCallback.java",
+    "change": "unchanged",
+    "sha256": "144cb2a60ce9d49af0973a92535cf257e947e31b760cb32db82c2a373e6a778c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/gui/package-info.java",
+    "change": "unchanged",
+    "sha256": "bf72d9621a900e333f8b23963f3809dc282f194356ada0c2d95d38dcd80cf697",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/IIngredientBlacklist.java",
+    "change": "unchanged",
+    "sha256": "630518a4891dffb7d72b15b3706a515909ce571119b20687df9dcba66c10db76",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/IIngredientHelper.java",
+    "change": "unchanged",
+    "sha256": "f53b049f0f25c8f1bb4b5fa263d770554fbb2e1e85adcaabcbf04c63b2d2e53d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/IIngredientRegistry.java",
+    "change": "unchanged",
+    "sha256": "89aed2f487736bad29e16c78f3886ee831ee19707db6790b35d386e69c000f9d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/IIngredientRenderer.java",
+    "change": "unchanged",
+    "sha256": "a060de377ba6703a3ac31e2bfee1e676b1d02a7b54fd9cf132ba0ad6351ff2e5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/IIngredientSubtypeInterpreter.java",
+    "change": "unchanged",
+    "sha256": "e03e9d567313ddbc12f884eb1b8249ba494531765cb56f24e448995405b5012a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/IIngredients.java",
+    "change": "unchanged",
+    "sha256": "10072ee2ab5b7ff93b5cbd9c7af9788f1402bdac39b1bd67111b6ee420908b18",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/IModIngredientRegistration.java",
+    "change": "unchanged",
+    "sha256": "81a597d6caf319dad5404a4b40919d036790e633cf27028e4b642d9b7928a3c3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/ISlowRenderItem.java",
+    "change": "unchanged",
+    "sha256": "4b15ca131ac17acfb777434b2092501523ad86871898be7127b1388c0ad44364",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/VanillaTypes.java",
+    "change": "unchanged",
+    "sha256": "b408522cd23ae47564e36fe4b747270c0e6e51be5f98271ec293c120a67fe8f2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/ingredients/package-info.java",
+    "change": "unchanged",
+    "sha256": "cc5da7676f4221beed46277f04f6f25fe9f1d65efc12c9a62cbc94b335c3b74d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/package-info.java",
+    "change": "unchanged",
+    "sha256": "c82b3c90ee1461fdaa37b81dd383194b5672d0c8a8c4c304432c33cd5ea5b1a8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/BlankRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "3343a543fc1aade62e8e654e41eca526aeda96e16fb2a19e60f61b521fc105de",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/BlankRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "a995602263881fafb060a0a23ff84937cc2688fe7b4cbe66236a7c5f8ca6a93d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IFocus.java",
+    "change": "unchanged",
+    "sha256": "09e764956d3f9e289bdcec6ad906839cbf4f972f129238e8f06985e05f3d84f3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IIngredientType.java",
+    "change": "unchanged",
+    "sha256": "9c2bccabb34b157351d29c5c19ee1bfb802d6151ff345dd725d53f9683fac172",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "ba76527afd67e3c85f1000fb2e2e93683d02896725df8d029b6382babf8c4676",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IRecipeCategoryRegistration.java",
+    "change": "unchanged",
+    "sha256": "a4aa2bafcdec3d4aa5e943d7710fd9644a3a63eaef075c71cba36200beddf688",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IRecipeHandler.java",
+    "change": "unchanged",
+    "sha256": "986d3e557a724f2ff9bc16a775c332b62d5e2bf3255c6e9ad7c1f40057f748c7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IRecipeRegistryPlugin.java",
+    "change": "unchanged",
+    "sha256": "c7c87d7f725c20d4782801db266b958fbffcb05421af4654955bfa5cc808471a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "03331f160600ba5f0720d0dfc735faf8e78fd9e713bb98de04b7528a9a8c0298",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IRecipeWrapperFactory.java",
+    "change": "unchanged",
+    "sha256": "fd77e7144bda452ab36f48d9544905a552c3c9afca15589a00a7365605731f52",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IStackHelper.java",
+    "change": "unchanged",
+    "sha256": "e05e4a51352c0ba93c5a37123a8b96cbafea503497a91230a0addc09d4427b11",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/IVanillaRecipeFactory.java",
+    "change": "unchanged",
+    "sha256": "7bf1c33a2e531103b85c5c18adbe1984105261751c688d89b02669f954af3075",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/VanillaRecipeCategoryUid.java",
+    "change": "unchanged",
+    "sha256": "4d1dbb95c356a30e1bba3282d8c62bfcccc02cd88cdbcc7975b7dbbee25f75dc",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/package-info.java",
+    "change": "unchanged",
+    "sha256": "7c9f1b4c1d9953f18c94871bb982f4124ce7eb273d3308eaf468583fcad2b9eb",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/IAutocraftingHandler.java",
+    "change": "unchanged",
+    "sha256": "224797b18c575a71b69f35aed0f106a35135cfb91a24deac40137b57429936cb",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/IRecipeCraftingHandler.java",
+    "change": "unchanged",
+    "sha256": "f449c4351fc94345327eafd81bb1e5e3c002d4a8363c37ddc1504a07a0fb4a9a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/IRecipeTransferError.java",
+    "change": "unchanged",
+    "sha256": "a4462cedc12d1bf09f786028b98c1cd4dd4d9936975f58a5256dea42d03e7935",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/IRecipeTransferHandler.java",
+    "change": "unchanged",
+    "sha256": "37f6508dcee6c3d2de2c701b1f639c21ac4e489cf635088c9b790ea2ca9ad75c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/IRecipeTransferHandlerHelper.java",
+    "change": "unchanged",
+    "sha256": "da8391de75eaad542bca8562a748f8e99e8c05f952125ce69cf6b6facdccd409",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/IRecipeTransferInfo.java",
+    "change": "unchanged",
+    "sha256": "9d58a764893c84bbccdcd0cf98e8c1116948b226cf80fdc6db472463f6e8d221",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/IRecipeTransferRegistry.java",
+    "change": "unchanged",
+    "sha256": "6bd28c9daf0e563a0ec87da644aba185da80f2ddf5733c6815e85fe49b23685c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/transfer/package-info.java",
+    "change": "unchanged",
+    "sha256": "888c4157f7b4e472aa533064cfddecd841e63acbd6ec469075362f1a60f3c1e1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/wrapper/ICraftingRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "1bf0f0debb32a49bae5c3829a41cd8aa8b7d7e65ba27e6a9d98c4d39eb2286d0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/wrapper/ICustomCraftingRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "8ec61e0ae97e12ea2c79d6c8aeb41997a20f0e53560bbc8a79d02fb23029f4ce",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/wrapper/IShapedCraftingRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "8b4b47b7384e67b4c984ca6d26339486db4f3607bae4c633bd34b97151792ae3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/api/java/mezz/jei/api/recipe/wrapper/package-info.java",
+    "change": "unchanged",
+    "sha256": "7094cfd199fdbdfd32f58db10d6121769ee46d95d62247b25d9392617d5f9480",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/Internal.java",
+    "change": "unchanged",
+    "sha256": "f4b717486ca68a26baf190fba5895617aef52012a384dc6746bad90455cfad43",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/JustEnoughItems.java",
+    "change": "unchanged",
+    "sha256": "b352fd803224c35ce68bedb3d659653238a3c72279cbfef3d725762ca793ddd9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/AutocraftingHandler.java",
+    "change": "modified",
+    "sha256": "81ec15611efb376ad8097cd16d5ab43cfda2c943aeb9ff14039c6a684f9b5e9a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/IngredientUtil.java",
+    "change": "unchanged",
+    "sha256": "6ad2863f0705b7610b468c5c805210bb37e2e621c4c16a70d85ba2f64e1fb66c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/RecipeBookmarkGroup.java",
+    "change": "modified",
+    "sha256": "c0ac53b3c290e9a20e3db1d4c96013f629a181d04f5b78c5c7aa8fef36335bd1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/RecipeBookmarkItem.java",
+    "change": "modified",
+    "sha256": "12af78deb8ff1dd6e7a715db5ed596eaef4deef542df784493047dd01256b1fd",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/RecipeChain.java",
+    "change": "modified",
+    "sha256": "e24563f452ec4182f2191538444ab714e0374defb55e26875620e9e77b791674",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/favorites/FavoriteRecipes.java",
+    "change": "unchanged",
+    "sha256": "610ecc200c534f3d5ebcb352d8d5b3bc6e2c7afcabc86bbe688e935103d9dcad",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/toposort/CyclePresentException.java",
+    "change": "unchanged",
+    "sha256": "8dd5dd92c839bb07f85ef2a81cfe46f781397eef02b3e1c538d698d06c20759c",
+    "licenseEvidence": "LGPL-2.1-only",
+    "basis": "file SPDX header / directory LICENSE / package-info.java"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/toposort/LICENSE",
+    "change": "unchanged",
+    "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+    "licenseEvidence": "LGPL-2.1-only",
+    "basis": "file SPDX header / directory LICENSE / package-info.java"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/toposort/StronglyConnectedComponentDetector.java",
+    "change": "unchanged",
+    "sha256": "4f48be9e8165e4b541566d4e0763dd02ed56c01d7e9af06d685acd62779942e8",
+    "licenseEvidence": "LGPL-2.1-only",
+    "basis": "file SPDX header / directory LICENSE / package-info.java"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/toposort/TopologicalSort.java",
+    "change": "unchanged",
+    "sha256": "bca1cfa05f99e99074c9518488c876367440e64c2d9835c58b196a879dd5baba",
+    "licenseEvidence": "LGPL-2.1-only",
+    "basis": "file SPDX header / directory LICENSE / package-info.java"
+  },
+  {
+    "path": "src/main/java/mezz/jei/autocrafting/toposort/package-info.java",
+    "change": "unchanged",
+    "sha256": "b108443ab830ea873d79582ba9adfd4c703253326d0829568847c298bd5009e0",
+    "licenseEvidence": "LGPL-2.1-only",
+    "basis": "file SPDX header / directory LICENSE / package-info.java"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/BookmarkGroup.java",
+    "change": "unchanged",
+    "sha256": "42aad726d9dd65c9b6005041e610c1b0bd518829c61b3b66b062de0b3fb9d57d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/BookmarkIngredientHelper.java",
+    "change": "unchanged",
+    "sha256": "db33d7aa78721cb098815652f8e4f352908037e567dd7d9c7226e14c29b7af35",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/BookmarkItem.java",
+    "change": "unchanged",
+    "sha256": "e0753d36abbb755d383dce617663c09b52ca22dde4c21cf27672d2e7ea93bfef",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/BookmarkItemRender.java",
+    "change": "modified",
+    "sha256": "9e2e47ff83d53d7a1cbf38b6d902b7fa93599d9b3c4312f515d34af5fa021b9c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/BookmarkList.java",
+    "change": "modified",
+    "sha256": "5199b6535e3361843eec64023cd7434c9ad03c1d72c81a7c7c9ee108bdf1ca56",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/DefaultGhostIngredientHandler.java",
+    "change": "unchanged",
+    "sha256": "c054163c73145837a5414aaa437413cf09f93e866d292258867d6aa688dec162",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/DummyBookmarkItem.java",
+    "change": "modified",
+    "sha256": "254ca784da67e558ebdd5e6f467f0d01b84f44d93707a8388f3ae743c5c8f782",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/InfusionBookmarkItem.java",
+    "change": "added",
+    "sha256": "26e92f06c3f3b2498a0de1ab56b50e850c51a49f07ec3ac1b23582faf49fd8f8",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/RecipeInputBookmarkItem.java",
+    "change": "added",
+    "sha256": "31b4b5edcf16f4292dd8371d9634178f91984134282808945e02a32a267728e2",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/bookmarks/package-info.java",
+    "change": "unchanged",
+    "sha256": "f7188e102b4a79b4069ea973a57d7423c9665bfbb75483f277ffde7f7300454f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/collect/Char2ObjectSingletonMap.java",
+    "change": "unchanged",
+    "sha256": "b2f5a14407fbdfb57ceb28b536f1f92c0610cb12e335547485bf979b40d6cc85",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/collect/ListMultiMap.java",
+    "change": "unchanged",
+    "sha256": "099520afd0b9a95f1aa621cd787677b928a8da018a2708e7b1d23e1b249865f6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/collect/MultiMap.java",
+    "change": "unchanged",
+    "sha256": "a22463ce6be887babfb10b042855e352ef52d32a42dbeed0188c074d7c9eab6b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/collect/SetMultiMap.java",
+    "change": "unchanged",
+    "sha256": "8cdfab00abfd90e7642d32da0f1705bdad2c1e53c71402590535fd37982c8d6c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/collect/Table.java",
+    "change": "unchanged",
+    "sha256": "9d07b5953f61e6485408c5d35e2b6f7d0f12bfc09aaf02594bd3f005523a8bf0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/collect/package-info.java",
+    "change": "unchanged",
+    "sha256": "9d2e9cdc2488f3a23ef4ae12f47c09693feed858fcf5b09581b1b074a5276b4c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/color/ColorGetter.java",
+    "change": "unchanged",
+    "sha256": "744f607d0b86655bb9cab2ae7684ef24a56cd8d200c1fcc9d8ae2ac578da0396",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/color/ColorNamer.java",
+    "change": "unchanged",
+    "sha256": "90f9656e98191d6a0f73e9fb27f0eff56f5746d2014c688070db0a480a8efe58",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/color/ColorThief.java",
+    "change": "unchanged",
+    "sha256": "636b329e4660404135f094956c0f7305e98769386a29fe0a38b786092bbdaaf8",
+    "licenseEvidence": "CC-BY-2.5",
+    "basis": "file header"
+  },
+  {
+    "path": "src/main/java/mezz/jei/color/ColorUtil.java",
+    "change": "unchanged",
+    "sha256": "425d21fbdc6c05fb109bc577dd0ee2580af13d844a099dec4892566ae9193a77",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/color/MMCQ.java",
+    "change": "unchanged",
+    "sha256": "56ce77f174c4f889139ad6aa59bcc132229f92133797338a36a1ad76894feb64",
+    "licenseEvidence": "CC-BY-2.5",
+    "basis": "file header"
+  },
+  {
+    "path": "src/main/java/mezz/jei/color/package-info.java",
+    "change": "unchanged",
+    "sha256": "8e90c3698d41a7538c1ecbc8d236b69f26f5fac52f4060adff8c2f95ccd049eb",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/command/CommandLoadBookmarks.java",
+    "change": "unchanged",
+    "sha256": "e64332e45e23cddba564cc2905b8b87ab9dc02268b140efff0360b6ecc0e0275",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/command/CommandTreeHEI.java",
+    "change": "unchanged",
+    "sha256": "94d2edc1419da018edbf258319d330ff3de28a5387ac7e4acd79d78934320019",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/BookmarkOverlayToggleEvent.java",
+    "change": "unchanged",
+    "sha256": "e967947ee7340d3a6708bf27797b86fcb5dfb3a87acbb4d26f8367a07d9295ea",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/Config.java",
+    "change": "unchanged",
+    "sha256": "8ef2eb8f8b5ad1eea539f950175ef19daa33011eeecdbb4f387968004123ad0f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/ConfigValues.java",
+    "change": "unchanged",
+    "sha256": "c143039f37e9b4eba48293040b2d9fbd934493843d33e20a6cd7e7ebbc148ea0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/Constants.java",
+    "change": "unchanged",
+    "sha256": "c1ecbd611f90ed378038ef1caa4d58f97bfee5eb16747a612a588226e134d53b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/EditModeToggleEvent.java",
+    "change": "unchanged",
+    "sha256": "e62e1a8f2414c4c1828d98a31ae3e42119a9d0a77407f9af5ec506b4c3cad223",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/IngredientBlacklistType.java",
+    "change": "unchanged",
+    "sha256": "6cbb281033eff666b4a09b5315c16483489a8d6079e2d1ecca15e93af4649802",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/JEIModConfigGui.java",
+    "change": "unchanged",
+    "sha256": "4a0c8db6fcbb8bfb3773923100bf56ed0abd07eec545ac7645e231536225c9d0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/JEIModGuiFactory.java",
+    "change": "unchanged",
+    "sha256": "3bdcb03d786b411b1b1c95b95aceef780974e2adb46fdf1d8e75c7a74b16a8dd",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/KeyBindings.java",
+    "change": "modified",
+    "sha256": "95427d2fc7b09a0df0f4c553b28402b532312a875a8c053c32cdea15c97b147e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/LocalizedConfiguration.java",
+    "change": "unchanged",
+    "sha256": "68c58d125019596b150ce48352632f485f8001ea9c695357ed1b42ac640827a2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/OverlayToggleEvent.java",
+    "change": "unchanged",
+    "sha256": "e302235d27f418e103640334a70facdb4ba10fbbd48344212306e0704f6cb250",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/ServerInfo.java",
+    "change": "unchanged",
+    "sha256": "821dcf561e05e04f68efcdfc6e43156bad1cf1e7418647ae829eee66e3c60900",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/config/package-info.java",
+    "change": "unchanged",
+    "sha256": "d2b9f1d2aacbab69f38237ba8089de8f6d278173f5b916d9c0e22c47a0939cf2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/BookmarkUpdateEvent.java",
+    "change": "unchanged",
+    "sha256": "8c2fb488388f7891a35681bcba06174ff12a646e52807b0d1ce0c6fc60a4c6d4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/CraftingGridHelper.java",
+    "change": "unchanged",
+    "sha256": "7735d7ce3223a284c2828b2a3e4e2e2e8674cadf64b0f37b764d17c24b5c5ef5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/Focus.java",
+    "change": "unchanged",
+    "sha256": "7b04ab8cc1799f710ded3bcf3c27b2a2fb4b21c59588640728ddb94e54f8f049",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/GuiEventHandler.java",
+    "change": "modified",
+    "sha256": "ce68c396f2c3298671f5c54d57392d72be274d5f723090d9b20afe69e9b1ce54",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/GuiHelper.java",
+    "change": "unchanged",
+    "sha256": "9789cbbec856c3864e2198400cc20684d734209842f2ca2770564fda202aab6a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/GuiScreenHelper.java",
+    "change": "modified",
+    "sha256": "8428bd5814f55d56c02f46126464175428f93baaacd53104927518e5d8708fa5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/PageNavigation.java",
+    "change": "unchanged",
+    "sha256": "ff29652af046bdaa633f15b112a3effa23c70870c174c14e004aaf9e48c0a370",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/TickTimer.java",
+    "change": "unchanged",
+    "sha256": "56ee576bf9fe3a9b27cc2e509a492da56d3848ae9006950c869dfe80f3944382",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/TooltipRenderer.java",
+    "change": "unchanged",
+    "sha256": "658cf77da797f4b009af497ebddf03ba1e47a3e8fd673f8f6480716fd9a80d12",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/DrawableAnimated.java",
+    "change": "unchanged",
+    "sha256": "aa552790641afbb6222bd4c9f949dc08aa6f32720f35dffda8f06508b3614bce",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/DrawableBlank.java",
+    "change": "unchanged",
+    "sha256": "4874267e12c19c010784eaef8e110ede050f07d10dacdc69c12bd16468b5b6be",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/DrawableBuilder.java",
+    "change": "unchanged",
+    "sha256": "2052e89d5d78a70b0e20a72a1f85539596a2ef7de2286127b380e5dc92660a24",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/DrawableIngredient.java",
+    "change": "unchanged",
+    "sha256": "d49eb9b4a29de199a41ca535c666519851d2e67a9a533ed36381b38fb13c5175",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/DrawableNineSliceTexture.java",
+    "change": "unchanged",
+    "sha256": "69547c05fd7ea72023777e06f69277d8f2af894e473d7748354331505d1da6b1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/DrawableResource.java",
+    "change": "unchanged",
+    "sha256": "456fdc614dac4df8ee24a2520abed8dd9b3b35aeefde171529dd081965e10dd1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/DrawableSprite.java",
+    "change": "unchanged",
+    "sha256": "8e66338f83b215f14e8b512c2839259e0a73bfb815a475e86f7bd7d6c6aa4efe",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/GuiIconButton.java",
+    "change": "unchanged",
+    "sha256": "3f598f6dc4ff1261f139fe0bda0f894be9dde8ed86e739c9d3b0b492f58cac61",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/GuiIconButtonSmall.java",
+    "change": "unchanged",
+    "sha256": "cdb1ae49b44e81a697d45ca0f2e2d5543a86b434b0e3a0ecfbf0a86ba9769ef0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/GuiIconToggleButton.java",
+    "change": "unchanged",
+    "sha256": "b420f146c3eb27774b4fb1399a69edf2d2061971425a650ce7831f00e3be8595",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/GuiLabelButton.java",
+    "change": "unchanged",
+    "sha256": "9d62b88cf2c4f9b7c426bd88e7e60d9bf9f94b94b526f708bbe4b6df4ee6b8a2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/IMouseClickedButtonCallback.java",
+    "change": "unchanged",
+    "sha256": "85128ea17d54b07e4a1258283ea705d9fbab1182962bb385409ca8f52802e773",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/elements/package-info.java",
+    "change": "unchanged",
+    "sha256": "ba7c13eabcc4647e788ecdc28c7f88eb2c5c2d5fa228ded197c8e3f9bf308dd0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ghost/GhostIngredientDrag.java",
+    "change": "unchanged",
+    "sha256": "08fa6059f6ca69da31268fb21cf9feada2273c1325d76e2b9bfc9d31dc5b4be0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ghost/GhostIngredientDragManager.java",
+    "change": "modified",
+    "sha256": "6d2c552576bb96a4b3f7ae958be9a096f5b8f4b84338c7d33c4a79746f90493a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ghost/GhostIngredientReturning.java",
+    "change": "unchanged",
+    "sha256": "962d45a5e03797f5d60da0db6df6c27dddcc2149299556666c6985de0f6936a1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ghost/IGhostIngredientDragSource.java",
+    "change": "unchanged",
+    "sha256": "fd7940729abb82539473a24c824623fcc4bcfddb6db9f6b0ea4856940f76602b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/CycleTimer.java",
+    "change": "unchanged",
+    "sha256": "a9f3b26e6dc58c645b0add027302f33eefe23b2dcebb95a5e04025a36cbfe572",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/GuiFluidStackGroup.java",
+    "change": "unchanged",
+    "sha256": "f13d640111fd16bb3e6be00c764bfa94e1f228a29dff4bf52e78047bc423d8e1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/GuiIngredient.java",
+    "change": "unchanged",
+    "sha256": "927a582600ede5308b1c0adb5734d3b851b72a6cb2f118cc46543d1504396126",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/GuiIngredientGroup.java",
+    "change": "unchanged",
+    "sha256": "fcb8356461e40432bc49b70e31a131b46feb99cc2805db9b5f3f87ec33944030",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/GuiItemStackGroup.java",
+    "change": "unchanged",
+    "sha256": "5b81af5ae757e2b9e0b69d034bd3e472976b8ac24ecc265a3045244f793a3bbe",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/IIngredientListElement.java",
+    "change": "unchanged",
+    "sha256": "bb29c689991b411336b0039f0d44e91d2251cb5eea62753908636a6b9c4d0aa6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/IngredientLookupState.java",
+    "change": "unchanged",
+    "sha256": "3795fc9f2f3d7e9d449122d43f436540f78549b28fca196b19236fcf8e8e4400",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/ingredients/package-info.java",
+    "change": "unchanged",
+    "sha256": "7bd9533a94aff2d17bc60f21f5917620bd139063115db22dd8890578d0bb5bfd",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/ConfigButton.java",
+    "change": "unchanged",
+    "sha256": "04c351e9f26cf6c2d0fedab7d58e003accbff753a3d78ddf446d3d0d4843f0c4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/GridAlignment.java",
+    "change": "unchanged",
+    "sha256": "90496f2cd8cd72840ae25496c96198cc1e10f951340be0c05830ae1441f0b83c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/GuiProperties.java",
+    "change": "unchanged",
+    "sha256": "053299f2d645148fb736136098e810e1d97a623fe1804c17b53b2ce6794df02e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/IIngredientGridSource.java",
+    "change": "unchanged",
+    "sha256": "ca61103438067c117686ee057d5388ad7c5e48f9f93ae3571888757fa145d48b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/IngredientGrid.java",
+    "change": "unchanged",
+    "sha256": "b2379aa9f8c932482d60b2568882bdafe081caa6b2009c41b573abede2fec9e8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/IngredientGridWithNavigation.java",
+    "change": "unchanged",
+    "sha256": "b474d2815bc370541aadb1879b90aa6f922b6527094f8c59b82bd6adca602b1f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/IngredientListOverlay.java",
+    "change": "unchanged",
+    "sha256": "b9d08f2e3270fc945fb40e8163b7890dc58217c03c0e67c7a26943a25ab510e4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/ItemListOverlay.java",
+    "change": "unchanged",
+    "sha256": "9778606e3213ef52b4e725f2c426a1feb7b2362aff1fa104af4c9c644bc8436c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/BookmarkButton.java",
+    "change": "unchanged",
+    "sha256": "63c3c7759b1a1ee1b947f5c1016c678330fa58501eb2b5fba16b6b4989ba9e65",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/BookmarkGrid.java",
+    "change": "unchanged",
+    "sha256": "8ce749f0766e520da4d4aad7a06325b55706e362c283e58cf0dc7ab4c4b10216",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/BookmarkGridWithNavigation.java",
+    "change": "modified",
+    "sha256": "a293243d5bcfd138dcafaa0aebb47560f2483e91159f096238c92dc0520f2d98",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/BookmarkOverlay.java",
+    "change": "modified",
+    "sha256": "ef3513a63df5bb96397106eb6448ea1918d44d5a7b06b5fa37cc0df882662523",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/ILeftAreaContent.java",
+    "change": "unchanged",
+    "sha256": "7ae865b92df83a824063fe4b4803709a61b10f14a379f68c5336c71a4752442b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/LeftAreaDispatcher.java",
+    "change": "unchanged",
+    "sha256": "bcb0ae8a0b7c38071a2a65a476eb5332a069ad9dc96f2dfe473e78608a3e150c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/group/BookmarkGroupDisplay.java",
+    "change": "modified",
+    "sha256": "5516cf56b536277322d5e872e0bb13f04b067e73db2a790a19c064b703e874c9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/group/BookmarkGroupOrganizer.java",
+    "change": "modified",
+    "sha256": "8412b992db0c3e9aafc40b6ff12c4bf2308bf74c61854bfcb4f8fe6136a5af80",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/bookmarks/package-info.java",
+    "change": "unchanged",
+    "sha256": "6305959085dc241b63cdaa52a373fcb99d2afcdcd936ae57b8a7dbdc981db670",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/overlay/package-info.java",
+    "change": "unchanged",
+    "sha256": "2593b3656112dd326dc7a4d307f2f60850052429ac06903f293ae0d87d31f445",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/package-info.java",
+    "change": "unchanged",
+    "sha256": "db55db8a17253eb111275fab9192ed6128e81671bd8bda096fe5f08dcf10a50c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/IRecipeGuiLogic.java",
+    "change": "unchanged",
+    "sha256": "c3f989ef1a2c6891053b45e85ffd604b35f0aa436ec19de6e5a462377697368c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/IRecipeLogicStateListener.java",
+    "change": "unchanged",
+    "sha256": "54acf4e5199a79efac5423fc5bde89531826785096fc384eaa40f2487dd4ae9e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeBookmarkButton.java",
+    "change": "modified",
+    "sha256": "0a5ed0122a61f7cce13c0a524480bf77efc70e9ec836a4227329f7e72e8416c8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeCatalysts.java",
+    "change": "unchanged",
+    "sha256": "2784db93ac9e0eb00461128ae4713a45b032b5536b1a4e92004399bf99ff0db5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeCategoryTab.java",
+    "change": "unchanged",
+    "sha256": "be64ec9e93c53db8ef7712852a3e825bf1c8854ffc856428b817b5c6f34fd99e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeClickableArea.java",
+    "change": "unchanged",
+    "sha256": "bfababc593f37faba4fcfd2d0836dc894f44b365b1c3a6e45a0e4e23e7f1a66f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeFavoriteButton.java",
+    "change": "unchanged",
+    "sha256": "928078f3daf9bf51494d121bc39a9116483fec079e81af64787e64c69ed7c0a5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeGuiLogic.java",
+    "change": "unchanged",
+    "sha256": "92ae75645d50a9600ed5f7f6c0ed3b1001d8c5d8ad614b263a9059dd22fac4b3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeGuiTab.java",
+    "change": "unchanged",
+    "sha256": "fc4e5e25662515017c2a44661dfec964a74ac48c832c8bc02c75dda9a550aeab",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeGuiTabs.java",
+    "change": "unchanged",
+    "sha256": "e08147e5a82fd2979c584e009cf9f3f998576aa88e23cec03a50cfc6589c4249",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeLayout.java",
+    "change": "modified",
+    "sha256": "659a1f2a420ae1a91d49dcd1d5b3801c92cdfddb7c3cadd65f40320675331a2d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipeTransferButton.java",
+    "change": "unchanged",
+    "sha256": "abb3e980f1d9d4cfa0d9d0574d9953ed0ede632f6467b9d9da29f1a9ef3b9faa",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/RecipesGui.java",
+    "change": "modified",
+    "sha256": "6a4e7ebe086f8f3a211442694db292310f3365f0aae63fb38efaf2c727342d48",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/ShapelessIcon.java",
+    "change": "unchanged",
+    "sha256": "37c89998ad377e9df7a1bea1212a133d60191fe1fa7877624e001080ee96804a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/recipes/package-info.java",
+    "change": "unchanged",
+    "sha256": "c55fa647495983ac8742b65bd074f2880bd82846a504865e1067a23892832649",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/textures/JeiTextureMap.java",
+    "change": "unchanged",
+    "sha256": "5ae5c96497d8458d4ebff7346d0120db3c13a55ba731804ff49de28ef1a3c775",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/textures/TextureInfo.java",
+    "change": "unchanged",
+    "sha256": "fe72e1c176faac01e87534053661d1d36f2cef6a6c6a0fe45f6994dca2c3930e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/textures/Textures.java",
+    "change": "unchanged",
+    "sha256": "1068be9685a35593255509637e4b6ffd5955f67b46ea8ce1ffb170ac9bf28560",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/gui/textures/package-info.java",
+    "change": "unchanged",
+    "sha256": "837c00cb80c5609f34a73cb0ea44b98eec357ce1ac93dfabfd4e1bce298ce289",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientBlacklist.java",
+    "change": "unchanged",
+    "sha256": "7137a50ad66f371853bc9b51164ad00b5dce372eafe697d4ff8d511afe0a11f8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientBlacklistInternal.java",
+    "change": "unchanged",
+    "sha256": "8296f2c3f59e144493d8615dda2ff055637867fb58ad13dbd48a8b38f0eadd34",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientFilter.java",
+    "change": "unchanged",
+    "sha256": "62783f8382779c378e0cf774a6ce4f86c1bca35f718e555501a5bc825693b773",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientInformation.java",
+    "change": "unchanged",
+    "sha256": "fcac71b9d3a6d10d09e01a1e77702787a9864baa96ddc63ac752fd6c78db88d5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientListElement.java",
+    "change": "unchanged",
+    "sha256": "1d75827ceec7ce360eb2130d4f066f5a3da58903d35e087ecf40957af78134f7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientListElementComparator.java",
+    "change": "unchanged",
+    "sha256": "507b57d99fe1c73efed764e4cb908cc94ddabd7dd87798dd8458b2ab1d58d197",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientListElementFactory.java",
+    "change": "unchanged",
+    "sha256": "7c166c9be7bbe8ea9874d292068b222a2316f54f37c824e0057193419ce64090",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientOrderTracker.java",
+    "change": "unchanged",
+    "sha256": "971b8a97b2b8f32b6fefdbe642cb2d93a00695dcc62d5cf8097c20fd687ebd0b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/IngredientRegistry.java",
+    "change": "unchanged",
+    "sha256": "6e99050342bfdd1ba5b11b49adc302289bd74ceff3fcfad09e8d70262537a265",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/Ingredients.java",
+    "change": "unchanged",
+    "sha256": "0231535b188839a45e8cb53a9c1a3ed5df945312b07ea188f86d07f5bc338141",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/ItemBlacklist.java",
+    "change": "unchanged",
+    "sha256": "f18d15ae91317296d8e2e3aa312a05cd045057edfc18ee416e3990162f2bd407",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/ingredients/package-info.java",
+    "change": "unchanged",
+    "sha256": "e10bd7ed9ef8605c28377ee59b01ecb3eb8fc1a1d663c2214f6a9975eb811604",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/ClickedIngredient.java",
+    "change": "unchanged",
+    "sha256": "536f03700728fa4d471dc248746b5aa74180d6009908cba8b28a1d9d2e2b328d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/GuiContainerWrapper.java",
+    "change": "unchanged",
+    "sha256": "74a8b280c9642b1965158dff528864dc48f87f955a93b6ced797190fe56c6056",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/GuiTextFieldFilter.java",
+    "change": "unchanged",
+    "sha256": "7257cfc8d78230ac000ee99449e10db6b7eb5ed85a73500c111a17176b259ed9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/IClickedIngredient.java",
+    "change": "unchanged",
+    "sha256": "1d0e89d67ce2e52085b1173ea55800ef72b6bb45bf81605e6c73688c2f958e69",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/IMouseHandler.java",
+    "change": "unchanged",
+    "sha256": "357ea09bf0cbf78389c897289d8dbf7ad5658c8a4e1195fdb558134519a778e4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/IPaged.java",
+    "change": "unchanged",
+    "sha256": "67c06eb85413459e5bbfe1c94b71c311f4efecea2cd8002204801db9c823e419",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/IShowsRecipeFocuses.java",
+    "change": "unchanged",
+    "sha256": "6e722d39e0a1e6d2412b40dcca6e3f14abd26e7ebdd28ae3ef68a9feabef0e6f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/InputHandler.java",
+    "change": "modified",
+    "sha256": "ea1c65f699385bba12d164b86a59aa9393f9854b4dbbe4ec1105c462fb9501b0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/MouseHelper.java",
+    "change": "unchanged",
+    "sha256": "7d47e4f46dbce5c24210351c2f26bf1c715d155bd2c4f73dbfe78f7a4c8e7ebf",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/input/package-info.java",
+    "change": "unchanged",
+    "sha256": "9f7e534c42881dc4e1beb7bc9e477ab538971521c57046e322331e7302f3e8ac",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/IPacketId.java",
+    "change": "unchanged",
+    "sha256": "0480eb4050c5c3672a3a25b14eb1e3ef768a1f64bf9f3db8f2ddd2c4d88e80d0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/PacketHandler.java",
+    "change": "modified",
+    "sha256": "587273c314ab2443795c00e723855e695d37fa08d4c91d182b65248db26c816b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/PacketHandlerClient.java",
+    "change": "unchanged",
+    "sha256": "cb1e0dc940b42c5980ba45900883fe5457b1c56dbf1607c71bafbbb27dd40801",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/PacketIdClient.java",
+    "change": "unchanged",
+    "sha256": "a34afecb26a83ec3ee78751bea4b3020dcf6e6f19e97db8ec5273b2d2a32afac",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/PacketIdServer.java",
+    "change": "modified",
+    "sha256": "4f2251e625649639e63bca370e47b0b250912c1f5c8efc16b6867dbad19990b5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/package-info.java",
+    "change": "unchanged",
+    "sha256": "2428507bff64b6c70605bb7796804eeaa983917c41f6698c862a175e8bf7cc0c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/IPacketJeiHandler.java",
+    "change": "unchanged",
+    "sha256": "33f4c303ccc6da34a3372f6ebfdea9abf01a707e94ef615a5ac851f52e03dcc2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketAe2Craft.java",
+    "change": "added",
+    "sha256": "e79524316f5e7175404e9f483072bb8fc6eab5a2660e15b601786b14938b08b8",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketAePull.java",
+    "change": "added",
+    "sha256": "9eb808c03f26b8b516533cbfe46af617a22f72807ce1bd7442c2150efcfd9101",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketCheatPermission.java",
+    "change": "unchanged",
+    "sha256": "85ffc1df20574b4af04480f2e1c001d6adcbd6d3787d1bc8eb336b9c26caa695",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketCraftUpdate.java",
+    "change": "unchanged",
+    "sha256": "30e0963bf9de89e3767542ed8f3f7337d4415e477f572867dd3f7529afcb9d2e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketDeletePlayerItem.java",
+    "change": "unchanged",
+    "sha256": "b07e317b0d77304d965b7e1cba1d54d0135427df86c5780e09073591f4433439",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketGiveItemStack.java",
+    "change": "unchanged",
+    "sha256": "c0b32605e8158809791a12b2254442b553e4edac70aaf0af2e9be164a705e9c8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketJei.java",
+    "change": "unchanged",
+    "sha256": "2157733a579766bec95bfdabe61257ccc75a765425f2b19146fc26db52077f54",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketPatternBatch.java",
+    "change": "added",
+    "sha256": "fffc087b809db3d1160e94957873a638fee27310510e976b72db790db10e71b6",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketProjectionFill.java",
+    "change": "added",
+    "sha256": "7ba4bf2310ecc70a8ec4de0ced6b4ebdb3f69c775d240f4bfc9718d7d163bf6d",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketRecipeTransfer.java",
+    "change": "unchanged",
+    "sha256": "541a774420b4d39f730047f8f54afcfc897cd6e3b017f76660f382c6ef6bb9d5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketRequestCheatPermission.java",
+    "change": "unchanged",
+    "sha256": "c93396a9124211d3d1fb31ee09df7871ade20bedb35e19b36ca7f4cf1fa8a735",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/PacketSetHotbarItemStack.java",
+    "change": "unchanged",
+    "sha256": "2aa731be2f1e0cf9d62dc7c7a465ec8a32fefb7471297b2cf4d2899340b16ecc",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/network/packets/package-info.java",
+    "change": "unchanged",
+    "sha256": "a20eecf3ba6f80f5f84160fcfe646f4107c46f9097c76a59e16568ffce942af7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ChainMath.java",
+    "change": "added",
+    "sha256": "b88207b713250317f8eeaf6d604ff2e79b6a16059489f38d3f13883274b5791c",
+    "licenseEvidence": "LGPL-3.0-or-later (local contribution scope)",
+    "basis": "HEI LICENSE.txt; baseline comparison; CONTRIBUTION_LICENSE.md"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ChainPlanner.java",
+    "change": "added",
+    "sha256": "5fbabe8d0e13257f8a2deefa361fc586d812407acf78f533a70a3bf10c5d3480",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/CraftDiagnostics.java",
+    "change": "added",
+    "sha256": "97a35321a87b217f633efc73ff87ceceb7156ffbef37ca7dbb31999506c6558f",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/CraftFeedback.java",
+    "change": "added",
+    "sha256": "195e82bc37febcd277e964ae162c8252768c94d71fbe65967178b74db2fe6477",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/CraftingKeyDefaults.java",
+    "change": "added",
+    "sha256": "e0f9b6f6469cb8ed8d7c280ecc60edf6d93db3cd1286c77f0c9dcbb4aa0a5ce6",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ExecutionSchedule.java",
+    "change": "added",
+    "sha256": "ca1a356c11b7904f984b5c6d362de7dcd1dd31d0a43cca6d4eba76e57af458a0",
+    "licenseEvidence": "LGPL-3.0-or-later (local contribution scope)",
+    "basis": "HEI LICENSE.txt; baseline comparison; CONTRIBUTION_LICENSE.md"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/GroupDragSelection.java",
+    "change": "added",
+    "sha256": "9962e4d2d6983bb27e429d4ee46b719eb1942b1798c5ceb862db82c61dd6500f",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/InfusionDemand.java",
+    "change": "added",
+    "sha256": "35ef74ae10896ba2bcc64c47bfb7166d974851a0cd2f7d93dc89424e169f2fdd",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/InputUsage.java",
+    "change": "added",
+    "sha256": "dd99a0f788e3e70bbc3693c5d56ab8a2336ade6252a9399f5b5abedf21b2e993",
+    "licenseEvidence": "LGPL-3.0-or-later (local contribution scope)",
+    "basis": "HEI LICENSE.txt; baseline comparison; CONTRIBUTION_LICENSE.md"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/MaterialBinding.java",
+    "change": "added",
+    "sha256": "35609fbd99897ff8f3e25aabd58310773aff94eb68b55587d657e0434ed2e374",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/PlannerScreen.java",
+    "change": "added",
+    "sha256": "6404ecb7f3bd9d8c76920f690f5942eb5f21ba6b9521b2d5f6ecf9f76d4cf72f",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/PlannerSession.java",
+    "change": "added",
+    "sha256": "c6816eac4a1ef4cca2612923d2a72c570963f0212ca3908999765b344eb1ca4c",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/QuickCraft.java",
+    "change": "added",
+    "sha256": "c270cf9a2b493fe4b7cc220d2dc08f47a3d2fcd9d50b365f6ea1d3854fc7c531",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/RecipeInputUsageProvider.java",
+    "change": "added",
+    "sha256": "e9af79cdbd713dac24e55e36b1e659c2434e344dea1b54c5ab3cff78963149e2",
+    "licenseEvidence": "LGPL-3.0-or-later (local contribution scope)",
+    "basis": "HEI LICENSE.txt; baseline comparison; CONTRIBUTION_LICENSE.md"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/RecipeTreeBuilder.java",
+    "change": "added",
+    "sha256": "8d5fe535a91d9dc1acc2cb77c33a8165e35b09d25e5631b4469c593907062957",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/RemainderFlow.java",
+    "change": "added",
+    "sha256": "428322250bb764bee0d2b4a8200faef2b1bd2aa3d9305ffe8cbc61e258ff5513",
+    "licenseEvidence": "LGPL-3.0-or-later (local contribution scope)",
+    "basis": "explicit adaptation comment; reference RecipeChainMath.java SPDX; CONTRIBUTION_LICENSE.md"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/TransposerSelection.java",
+    "change": "added",
+    "sha256": "c3b130b86d7d65626fa2c1e87c96c251ccf8d94a11dcdfc783d7d6da32109199",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ae2/Ae2Batch.java",
+    "change": "added",
+    "sha256": "2c1dd9c5d23ee3d1e482a412e3e484f1ce78f028dc08a0a6fa5c7aa2bafd83a9",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ae2/Ae2CraftingHandler.java",
+    "change": "added",
+    "sha256": "d06a02fdad2f7197fb91962cf65c439964c862482621132d2523f5887087e003",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ae2/Ae2ExactGrid.java",
+    "change": "added",
+    "sha256": "66b8185ef6291641a5384d715d5a640e4bf2c2443431bb4b89f5d03cd9a4b9c5",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ae2/Ae2Inventory.java",
+    "change": "added",
+    "sha256": "b6b4c654316f8137d3b0c3d5d2d637490d919f96c280c967099d747edebfe00b",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ae2/Ae2Terminal.java",
+    "change": "added",
+    "sha256": "c9ee5e7aabfb2626397a784cb5da4f1d53287a35d67829bd7333bb057e042c42",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/ae2/ExactMethod.java",
+    "change": "added",
+    "sha256": "40b7edc72a329ca4432c5f7a2e422af00f77cde8a705cc5fec37907e43eacfaf",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/pattern/PatternBatchClient.java",
+    "change": "added",
+    "sha256": "5a6de5f76b7752246c27ddd1ea45c25e7ef8f6bdea33713bdb3636b31893dbcb",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/pattern/PatternBatchPolicy.java",
+    "change": "added",
+    "sha256": "f96eda248a525285f9a8307d5b2c483aa20219c79fe0761f6e9e8f833d932914",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/pattern/PatternBatchServer.java",
+    "change": "added",
+    "sha256": "93a7e9b985a213bb52bc69dc7701e2d42e4f9b3b51c31e80400f8bee36041268",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/pattern/PatternMaterialGuides.java",
+    "change": "added",
+    "sha256": "cb3ecc6c77ae544fb8c89ad0289defa93ef32908b6c6bb6dbcf78d9d81356aed",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/preferences/PreferenceRules.java",
+    "change": "added",
+    "sha256": "96c1263066d292d308019456314029d3151ad6445895faa52594a5d6bec8f21c",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/preferences/Preferences.java",
+    "change": "added",
+    "sha256": "34d85caf45a7bd410d88ebe9e7933fe91a05d3b93079603f9ca4e637cddcfb9a",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/AeGhost.java",
+    "change": "added",
+    "sha256": "5df9502b6f6ec11e261cff6ddd7e921cc67ede89a24a7dccc1a2675e88938904",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/AePull.java",
+    "change": "added",
+    "sha256": "ca6d33a5d6528c730de04b910c3ba7e0feaaf315913bc6dcdd44cb4f05b56d54",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/AeSearchAccess.java",
+    "change": "added",
+    "sha256": "6db6d7203eded47982b9586d4f63953ae599a6b7c225963b3929f7563ae81d0c",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/AeSearchDrag.java",
+    "change": "added",
+    "sha256": "b0b6a382f7bf70cca7b2dc0d43d248488146fbe545d38c861bbe9c6320b3251f",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/CraftingGrid.java",
+    "change": "added",
+    "sha256": "7a3924f8fed5a366ffb0f9827c1571fee81e4a3b01ae57adcb1ef8d0a0eb465e",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/FillProgress.java",
+    "change": "added",
+    "sha256": "04f5b356a77a97e9098b31c2e5ddf7d12463071b9e7fa9dfdf712fbeecbed6a7",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/GroupMaterials.java",
+    "change": "added",
+    "sha256": "0b950acce748e959de8f8b0d588d086a042246f329d907dc18c021c993cd3d24",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/MaterialPanel.java",
+    "change": "added",
+    "sha256": "86aaebc8e9b6882a6cda5105c1598d78699c3469c98d43f53af206625a9040f7",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/MaterialPanelLayout.java",
+    "change": "added",
+    "sha256": "c4be89f4b58d0b7b28108c95643258003d831d43fb852217b33d56e68d8674a4",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/MaterialPanelModel.java",
+    "change": "added",
+    "sha256": "cdd631450dcf6ad2008f20879b2bc3b3df528f64657ce0c78c555c5b96f2082e",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/PointerGesture.java",
+    "change": "added",
+    "sha256": "a46174e809c1b94ed220c752b098788b7f9a1ff2d0486000b84c32b463b3ccb4",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/ProjectionFill.java",
+    "change": "added",
+    "sha256": "91fae6cff96f7c1e3d011c516b6d63fab789878537c3fa39f6aeee0bc63ec532",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/ProjectionGridState.java",
+    "change": "added",
+    "sha256": "aa1f0491a8030f94e8cfb5d2133b2bc160a08b751f1ba117a718a3ed495fa298",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/RecipeProjection.java",
+    "change": "added",
+    "sha256": "54be67731fe8512eaa34b48f4f9586108fdc7e6fdc3eb67a0cde6c11c433940d",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/nova/suite/TransferLimits.java",
+    "change": "added",
+    "sha256": "79073a0d77c1e6cb58b6694da96f1b4fcfd26cd6ac256a3f1054328a35053e6a",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/main/java/mezz/jei/package-info.java",
+    "change": "unchanged",
+    "sha256": "56a718f7fdb08bfa9e5a72e54536306112cf03ce8e92915f89c021760e289a6e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/JEIInternalPlugin.java",
+    "change": "unchanged",
+    "sha256": "1f8559bbfef930f106f966515922f86fba480311c3db60bd1975bfc20817d1d3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/debug/DebugGhostIngredientHandler.java",
+    "change": "unchanged",
+    "sha256": "e6f245f84dfb1000de6ffdb0f648e377505e22f18b1ad79167677bcb487b2621",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/debug/DebugRecipe.java",
+    "change": "unchanged",
+    "sha256": "81162c1a12fadfa19a26c611a4f584a485c57b688b5d6d1eeef5b2947d73d54a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/debug/DebugRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "70f045b35f57560caf0ab374256734a91d6ce555ff1c3a0310aa89bf984a7c33",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/debug/package-info.java",
+    "change": "unchanged",
+    "sha256": "b4dc25c023886608824b4defdb2f6019a559151062ffd72d75fd5ebe21237d47",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/info/IngredientInfoRecipe.java",
+    "change": "unchanged",
+    "sha256": "2b3c006b8d54cbf769d353d0b59510522fae9adb6132921a1dc680c84b273fc0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/info/IngredientInfoRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "04367953cfbc6d6c1bae276ce7156918eafb1984c02b44d50768f6779170f1b3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/info/package-info.java",
+    "change": "unchanged",
+    "sha256": "db198c7869e7d6b3c08699f0917506ffbfba1492454fa5fc435b54ac87ac1c41",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/ingredients/DebugIngredient.java",
+    "change": "unchanged",
+    "sha256": "361c7dd501ac7a398233cee848748acf7f3ac4f6ff7421a8c49ffd96e0015011",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/ingredients/DebugIngredientHelper.java",
+    "change": "unchanged",
+    "sha256": "2209ba5efd93a7add53bdb7323f4c007c5657d803d998da8ae28c8ed08cbaef3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/ingredients/DebugIngredientListFactory.java",
+    "change": "unchanged",
+    "sha256": "f795aa5d172bdf20ee66124aac6da90a95f492de228d2de7ca121f3531d2674e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/ingredients/DebugIngredientRenderer.java",
+    "change": "unchanged",
+    "sha256": "98f81d8296ef6c608a0aa132ef65ac69e4aadd0f0964c6dba1e08cc3b98151d4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/ingredients/package-info.java",
+    "change": "unchanged",
+    "sha256": "3c1fc740628fca3caa0540ed337b1e02547200deb4f175a75cc4f32a64221c6e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/jei/package-info.java",
+    "change": "unchanged",
+    "sha256": "723960c3bb9da0d34e362b54ec2a75e9215547a07dc9cf6a5c96ca2150998337",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/modsupport/ModSupportPlugin.java",
+    "change": "unchanged",
+    "sha256": "57df9d7e31eb07550c6c2efa5a3164f2823900eabc4fd763ad1f3a46b770e3f6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/modsupport/PatchouliBooksSubtypeInterpreter.java",
+    "change": "unchanged",
+    "sha256": "53e8ad5783e3b2f4201c975a2053bcd290ac82e666c0af829142b3c449acf5bc",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/InventoryEffectRendererGuiHandler.java",
+    "change": "unchanged",
+    "sha256": "06bd9a0f2d14a53ab904439bc1e27c85db77413eecd99ebb47cca53066aed377",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/RecipeBookGuiHandler.java",
+    "change": "unchanged",
+    "sha256": "39534e8b1f9a3d594a7aacaa23f97443b59a076bf2b7e4b1f6ec0d8071b65556",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/VanillaPlugin.java",
+    "change": "unchanged",
+    "sha256": "2d147c7ededc964f8272c1e8c5270169341e421b0f78aeb5edaece86872bfdfd",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/VanillaRecipeFactory.java",
+    "change": "unchanged",
+    "sha256": "fc8874f00e5dc5a056bfdd1e9c573bfeb37e1447855a5394afe6b9712646158e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/anvil/AnvilRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "4cd88ed62cec5e2d46376a7361b3d1c837b6cbebb184206880f0eb6b2289f2d9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/anvil/AnvilRecipeDataCache.java",
+    "change": "unchanged",
+    "sha256": "1d81fa8b8edb5c3c5c88dc974c95ca9c380cad95720de1cc0967f148a6a2deab",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/anvil/AnvilRecipeDisplayData.java",
+    "change": "unchanged",
+    "sha256": "49f9451746f7b04c49349c8997f29f02b718fc67551ad4de972169778aa16008",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/anvil/AnvilRecipeMaker.java",
+    "change": "unchanged",
+    "sha256": "01dac053a832b12f16f635f642ae522eb490603f7a9afec1ab52d54af3602e23",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/anvil/AnvilRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "688797704c0a1e3736c4d180886b3b0da41e6722b7d103180469c23136dc0da3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/anvil/package-info.java",
+    "change": "unchanged",
+    "sha256": "12b011eb562d7e6d05d84a11d73a13f687a52332830485ae67c6d92d9d7f6832",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/BrewingRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "a2179fcafaf9fd1cf94df23f906d4d18fd7ed3f34fb35dba1c9ad240c2e6a015",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/BrewingRecipeMaker.java",
+    "change": "unchanged",
+    "sha256": "c79ffae06d9126774e70e87c53c7f08d6f57e2e6b2d9e090436490fcc0579770",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/BrewingRecipeUtil.java",
+    "change": "unchanged",
+    "sha256": "e731ad6f565f52c1d065bb1c3c67193a08530da057b8f786e29383f9968e8e29",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/BrewingRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "9764374035a3d9ed2033211a9813f6afbb497211bdca5804004bc7b8753aaed4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/PotionSubtypeInterpreter.java",
+    "change": "unchanged",
+    "sha256": "0c258a69328e271515072836dc9bf66a5578233210ff980a6bf47c5d2966be04",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/package-info.java",
+    "change": "unchanged",
+    "sha256": "214fe7b23498b965c68b10b7cdf12f08b48215691d0a7eca15508ddc4e3875d6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/CraftingRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "5b1b31c353766774af1a17372951747136c01c8a2566bc228ac756364da2e333",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/CraftingRecipeChecker.java",
+    "change": "unchanged",
+    "sha256": "9fb5db868fda5bdbd898b843de897d3cb9316ab027398d1dd6b32c64983b6e0e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/ShapedOreRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "c8a3c4c6ad77df4fa77eda2f10a7fc7897ce8f7b144bdb716b26d6e7d5ff1180",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/ShapedRecipesWrapper.java",
+    "change": "unchanged",
+    "sha256": "5734928c2d21b1cb3675b8c36db2c75b9a56812e8deefe57586bf1bb0098c93c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/ShapelessRecipeWrapper.java",
+    "change": "modified",
+    "sha256": "d6a04c22b23786a06ae7b3f1a373bc47bbacf888d7ce29e765399a6baec084ae",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/TippedArrowRecipeMaker.java",
+    "change": "unchanged",
+    "sha256": "5300508af66f47b9b4b59cbdc6ecf96f1013b4bdb706c3a96fd274e84fc2a921",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/TippedArrowRecipeWrapper.java",
+    "change": "unchanged",
+    "sha256": "d67735d01339d466f91a3553c2dd91779971f5af6f2084788c2800e26cddf94a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/crafting/package-info.java",
+    "change": "unchanged",
+    "sha256": "f6c502522fdd52180de5358d17d3fe954202eab76dbcf4512f4c1d7cb9efeac9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/FuelRecipe.java",
+    "change": "unchanged",
+    "sha256": "e25b750a796dd4088460b55df47064b0dda546ee2b634a2bc09726218aed036d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/FuelRecipeMaker.java",
+    "change": "unchanged",
+    "sha256": "adf862a962fed3d30d0d34b194afabca3cb3af038b978e60858054cb1ad3074b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/FurnaceFuelCategory.java",
+    "change": "unchanged",
+    "sha256": "04688d8a874eca56d689ac980a6efc014c8f40ea76dae2637ffa08254f5bd394",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/FurnaceRecipeCategory.java",
+    "change": "unchanged",
+    "sha256": "018699ef959a30044a407cf3cb1de703f3f67f2d03d083e02911326b5b12b57b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/FurnaceSmeltingCategory.java",
+    "change": "unchanged",
+    "sha256": "2e054cf868adf3f2e2d96e51867ac67dd9a8efe5a23a5153aff8d2da8eab917a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/SmeltingRecipe.java",
+    "change": "unchanged",
+    "sha256": "079b4d32e1b2764971bfe53e2253e1d17a80addbc925fd62770873012606e991",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/SmeltingRecipeMaker.java",
+    "change": "unchanged",
+    "sha256": "c0a2785db2a175ffef498230a9a3d7efd157113d39bb8dd412697150075de8cb",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/furnace/package-info.java",
+    "change": "unchanged",
+    "sha256": "523c000690347cd9828148cbb6d16a0b4b90c8b52cf79c12b4f39e8a799202a9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/enchant/EnchantDataHelper.java",
+    "change": "unchanged",
+    "sha256": "f78ccf6be6335fecb801e0770a7e2389047076c8a68f2850695a265880e2eba4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/enchant/EnchantDataListFactory.java",
+    "change": "unchanged",
+    "sha256": "29bb2dbf9a68826b3d892b4ab7486a67ee5fc962ecfb286c532df26ea5330957",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/enchant/EnchantDataRenderer.java",
+    "change": "unchanged",
+    "sha256": "1f4ba798b6cee62a01bb3c53b1f793e94fa93887ba8f35b7732cd363885cc5c6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/enchant/EnchantedBookCache.java",
+    "change": "unchanged",
+    "sha256": "3c9a2c99c402249b4f2650aec60528b540f5a70ffc82cf181dc39e0e41754a00",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/enchant/package-info.java",
+    "change": "unchanged",
+    "sha256": "05b389ab4f08bcd9f0f951111701746beb31b720de9733d7f44086a6b4fc47a3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/fluid/FluidStackHelper.java",
+    "change": "unchanged",
+    "sha256": "d6810ebf87462146383801f7411bd919da0049c78aad6ff345a3355405934749",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/fluid/FluidStackListFactory.java",
+    "change": "unchanged",
+    "sha256": "d340148347976d2bcf5fb99476c4aba88430a9d1203b5624cc484b55acb0cff8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/fluid/FluidStackRenderer.java",
+    "change": "unchanged",
+    "sha256": "007ce50fcd2a2996803fedf52f5b5c7b842d48f24e28fb38c2dc71aada6aaf09",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/fluid/package-info.java",
+    "change": "unchanged",
+    "sha256": "242d69f9e638af50a85c31596d6404e45e491ba6c401b2a7ed649d13a08d8c06",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/item/ItemStackHelper.java",
+    "change": "unchanged",
+    "sha256": "5ee77572fdeb820916a9837b91380ef8ffb4d909ad02687bd38207abafa451bd",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/item/ItemStackListFactory.java",
+    "change": "unchanged",
+    "sha256": "1d301dbdceabe45b8936b632948155aafcae7a90b413a676124c87df8a0f14ac",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/item/ItemStackRenderer.java",
+    "change": "unchanged",
+    "sha256": "6e1913f2d38b1e4e9ab876df9f514789bf26b816f093b6eea4ae866227b1c5a0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/item/package-info.java",
+    "change": "unchanged",
+    "sha256": "ab96fb45a107020150afe903591c625c521be736b4a0fb18e866d37a0503d104",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/ingredients/package-info.java",
+    "change": "unchanged",
+    "sha256": "33df03518990e8f877c212c3b74ee704727b59296f6b5ca46be3a8187e1afd2c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/plugins/vanilla/package-info.java",
+    "change": "unchanged",
+    "sha256": "95a8001f02f261e8265e318441475868778e42409132f34db6ea3c4d043f123b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/BrokenCraftingRecipeException.java",
+    "change": "unchanged",
+    "sha256": "01fee8d15300ca90908b3a418221bc0ca6ca5fbb9fd594ec1f3648754cea99d2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/InternalRecipeRegistryPlugin.java",
+    "change": "unchanged",
+    "sha256": "6eca3f6eca5760511fac79ad66cbabf8f5d1750e3aca805fc0da2fb02958cf8f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/RecipeCategoryComparator.java",
+    "change": "unchanged",
+    "sha256": "55a790259e81c1cb941bf751d8a1a758898ecdbbd52393a8fbebf76cac35218a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/RecipeMap.java",
+    "change": "unchanged",
+    "sha256": "64c7f9e7308a187c639ce8714e18f11b43bd73562438a2617b16011678a176d7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/RecipeRegistry.java",
+    "change": "modified",
+    "sha256": "3be7fb1e7ebc195034423e9f3ff2f1e3f552af811080d71c9237815cddb5bbe5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/RecipeRegistryPluginSafeWrapper.java",
+    "change": "unchanged",
+    "sha256": "9a1fc53b009b2c03a381f38fa567314321139cc1cb7d2a1c5512d9604efbdc4e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/RecipeTransferRegistry.java",
+    "change": "unchanged",
+    "sha256": "8a30cbb95fbf18502dfc874922afa3f93aec245dc432abfb117900931913c093",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/recipes/package-info.java",
+    "change": "unchanged",
+    "sha256": "7055db71ad3d55de787f679ae23b599c32de166cc401a3a042357f1deb837d39",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/render/BookmarkListBatchRenderer.java",
+    "change": "unchanged",
+    "sha256": "9cbe07720d2669b324b75f385bee8530d74ba64f87f74ad29460f166d144bfe2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/render/IngredientListBatchRenderer.java",
+    "change": "unchanged",
+    "sha256": "cb8fcebc12b8f218d4e4a17a562508ef218b958ddde0bfbab64c3d7d2a2c2ea0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/render/IngredientListSlot.java",
+    "change": "unchanged",
+    "sha256": "a295b45706c3ad4810947390cd0b502107af3644859e9a6719bcbf18021cffac",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/render/IngredientRenderer.java",
+    "change": "unchanged",
+    "sha256": "8d69da0780c72e65cc52840c8d708fc05fa27690bd4d24504d66644158355925",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/render/ItemStackFastRenderer.java",
+    "change": "unchanged",
+    "sha256": "81b4c2aaed96446455a215e0bd9d60f94d0280734a6445c7a8703bf058a15f83",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/render/package-info.java",
+    "change": "unchanged",
+    "sha256": "059b0ab3a5273445f9b696cc33648df9b1187ebce10f4e24b630406ffe7eb6b2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/runtime/JeiHelpers.java",
+    "change": "unchanged",
+    "sha256": "aef218f300521e4f66b5523ff6d80a74aec4f0adea808ff83409acf78d57ed7a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/runtime/JeiRuntime.java",
+    "change": "unchanged",
+    "sha256": "969beb45c15c6ce66d922680ea138cff749d52468f3af861caf08fcdc1df11bf",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/runtime/SubtypeRegistry.java",
+    "change": "unchanged",
+    "sha256": "d2a7946e52304302f5082883d5ab82117e60f979853ad7dbd190007f4052580c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/runtime/package-info.java",
+    "change": "unchanged",
+    "sha256": "3fccbe3448e60ee98f95c4775000fec07cbfac2c54ea30cfe615e4676fe2957c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/AsyncPrefixedSearchable.java",
+    "change": "unchanged",
+    "sha256": "9c0946b9b0c9579e828724b144237dd0b02df4b4d29867d8224a9d16ddfbdbeb",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/CombinedSearchables.java",
+    "change": "unchanged",
+    "sha256": "a6622ae06d1a4f41a6675331a828d3e09d4e382a67fbe6007ea86296687af90d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/ElementSearch.java",
+    "change": "unchanged",
+    "sha256": "7629a53a9cb6118ff6bcbfe61e2d325bb16203a1a35c46bf38b3b9f91aa97e86",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/ElementSearchLowMem.java",
+    "change": "unchanged",
+    "sha256": "985e8937fc33a2f16531e13ff56f3cafbb16a34cd56c3e2ad99a8caade501e78",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/GeneralizedSuffixTree.java",
+    "change": "unchanged",
+    "sha256": "a8826dfea18febafea0ebfe91dcb2354351f62c805461cb87213105d014ee4d1",
+    "licenseEvidence": "Apache-2.0",
+    "basis": "file header / directory LICENSE.txt"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/IBuildable.java",
+    "change": "unchanged",
+    "sha256": "de4d44ac4b4d9ce5a083efad5119080bfceef56ca27410ebde55171f29216e12",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/IElementSearch.java",
+    "change": "unchanged",
+    "sha256": "678c87ccc563700a4f5abc234ee7c52ee7d7397f4abc221d16511843e52cd5a4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/ISearchStorage.java",
+    "change": "unchanged",
+    "sha256": "b47faddac60867a1fa06e119d0db293bc37f15ad57932ebec8b94bb49bc770a9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/ISearchable.java",
+    "change": "unchanged",
+    "sha256": "30598c009c82b5e64111ff7654a64145c799def9b324b814ad6c392b8909179f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/LICENSE.txt",
+    "change": "unchanged",
+    "sha256": "94ad31aa9c4a50007e1a96fc95143a3366f13d0ea84e535934f6a3a1a58aa0b1",
+    "licenseEvidence": "Apache-2.0",
+    "basis": "file header / directory LICENSE.txt"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/LimitedStringStorage.java",
+    "change": "unchanged",
+    "sha256": "2b81772008727cce2c8ee3989f153f397462f6bc85a101728503a6aaf891d86b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/Node.java",
+    "change": "unchanged",
+    "sha256": "b25bd0518ab5278e48a64502031e71564a0772d22429b8e10439c51c067c57c9",
+    "licenseEvidence": "Apache-2.0",
+    "basis": "file header / directory LICENSE.txt"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/PrefixInfo.java",
+    "change": "unchanged",
+    "sha256": "4f7eccc5b5f1ecc792295c1a7a3845daabe05a993baf896b3289cf0574da60a2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/PrefixedSearchable.java",
+    "change": "unchanged",
+    "sha256": "7791acfd608241599543bdddd99afa84010d6772a13dd50b7207ef76d62d5888",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/SearchToken.java",
+    "change": "unchanged",
+    "sha256": "e1d593d78b422a3b2e1a8deb5573af1e7babe3c20e195b87966d1369d0aa179a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/search/TokenInfo.java",
+    "change": "unchanged",
+    "sha256": "70e64b3c278c3ab58d75a031fe4d9ff8e2969514853702a7ca6be77589cb58c8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/AbstractModIdHelper.java",
+    "change": "unchanged",
+    "sha256": "ecd2b0ee303c9484a012e72ea5e350104bbe40368a6d9efd0c6bdf1e4df09e8a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/AnnotatedInstanceUtil.java",
+    "change": "unchanged",
+    "sha256": "cbe05cd9650747fff62b7ceebe1fc42c48b3341f16f26b8233703387379afb34",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/ForgeModIdHelper.java",
+    "change": "unchanged",
+    "sha256": "e884c92d04e35213cb5ffa631c3221ec1db0aa717a171714e05e98b8b17f5701",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/IModIdHelper.java",
+    "change": "unchanged",
+    "sha256": "e710b18aaa0a0e1c7b625cf61de3268284b15cf8ba2d680a18de728d25c2b124",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/JeiStarter.java",
+    "change": "unchanged",
+    "sha256": "30f85ce0cfe024c1bf0404d1d4eb411fe2c1bb83ab102080d66e02a827f654c7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/ModIngredientRegistration.java",
+    "change": "unchanged",
+    "sha256": "4aeeea44dedb12b654a1fc2601e33d412b8e73e1389965b8b1bef72303659b08",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/ModRegistry.java",
+    "change": "unchanged",
+    "sha256": "45b36093fa25417e19808e4821c8d60c22495b5843c5f162a0c9b962f9069519",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/PlayerJoinedWorldEvent.java",
+    "change": "unchanged",
+    "sha256": "22924b976ac2bf237b64c1c325b5c3dfc4deedd090e76612bf36d9193f6c8168",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/ProxyCommon.java",
+    "change": "unchanged",
+    "sha256": "8fb734e73324a202bdca6aba65b39480daa899d757f6342b789b5bc6054beb4e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/ProxyCommonClient.java",
+    "change": "unchanged",
+    "sha256": "3ce97ea45b275a9ee4192a075b7b63f02fcd8cafed01882f205b3d265290aa78",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/StackHelper.java",
+    "change": "unchanged",
+    "sha256": "38d72e49077e3917b1575298e9beb70c2c302354109b46058fe9fbd80b8a0b85",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/UniqueItemStackListBuilder.java",
+    "change": "unchanged",
+    "sha256": "0a43a41cd622a2197c0d4413ac3ee8b0b750b3815622fedda6eef914af6c1e36",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/startup/package-info.java",
+    "change": "unchanged",
+    "sha256": "da335a064cb97caf24a26a6c60d2b07544ceae45d47eb4f032dae7df37a9e4ac",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/BasicRecipeTransferHandler.java",
+    "change": "unchanged",
+    "sha256": "851cc63afdef56c6c8e2cfad7e90b1a5c7b724bb3820a124d3e8553a8e304551",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/BasicRecipeTransferHandlerServer.java",
+    "change": "unchanged",
+    "sha256": "c162398558637c477004b99e163b170fef51b54b13022b38a7381efad67ef088",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/BasicRecipeTransferInfo.java",
+    "change": "unchanged",
+    "sha256": "23c4233cbc1492555dcc73251b61c764729831a6d5bb915e7e9f7f281f30be29",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/PlayerRecipeTransferHandler.java",
+    "change": "unchanged",
+    "sha256": "1dd50fc8fdf45989f2b76bdde534de87d243c26cabb057cd2537795e587678e1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/RecipeTransferErrorInternal.java",
+    "change": "unchanged",
+    "sha256": "6975ec2010135ec8c7bc1bb47298bacc17adb555014855476ec8cf22f54be6ec",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/RecipeTransferErrorSlots.java",
+    "change": "modified",
+    "sha256": "a11edd1c49aa66d0055297c4a7d6a067283ba367594678cb67ac187c04cb39d8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/RecipeTransferErrorTooltip.java",
+    "change": "modified",
+    "sha256": "f3377fdcf30ddd894c01d72257e39437ad62c5aa698e9953379a5f5a0bf513b5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/RecipeTransferHandlerHelper.java",
+    "change": "unchanged",
+    "sha256": "d9270e1e8052d8fe1ccd5326410045d9a45d08be6168a3f82a1fee67d2babfdc",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/RecipeTransferUtil.java",
+    "change": "unchanged",
+    "sha256": "89db03b6901a6a128e8543ee6b709e736c376a2719b8a078e1067eadb2e367d5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/transfer/package-info.java",
+    "change": "unchanged",
+    "sha256": "1537fd1bddbbf46b41243137cee9d8df93ed04d5ddbb86b78ac3e1d200e8b519",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/CommandUtil.java",
+    "change": "unchanged",
+    "sha256": "6eb65e8545b724bacb5676ba6ab98623e20ccfd17f33e87c4cb61c2e5abbb3b1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/CommandUtilServer.java",
+    "change": "unchanged",
+    "sha256": "89fac4d1febac7e47f2c4ef0369acfef8fdb526443948edbe8e97ba3b09ff374",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/CountUtil.java",
+    "change": "unchanged",
+    "sha256": "76d510984c139774e7bc4d36707cd55967e61a8b09bba3add5378de4f24fb939",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/ErrorUtil.java",
+    "change": "unchanged",
+    "sha256": "4b4c5f95e135c1322395769a168b377a83fb09e945330167ef0353168bef762d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/FieldsAreNonnullByDefault.java",
+    "change": "unchanged",
+    "sha256": "1daf89551e77d2ef553c09daf8d9d602d02efb08f5dd545da2de9c33b2bde739",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/FileUtil.java",
+    "change": "unchanged",
+    "sha256": "71ccd4b6554f0b71fcf85bac068616e3d17e4d0b97c6d771ea5ed82d4eff3ff1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/GiveMode.java",
+    "change": "unchanged",
+    "sha256": "f827e48a0d8c5ab7682dd539c0b7666e01225c9ddbb3bd8af34aa8075e1ef1d0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/IngredientSet.java",
+    "change": "unchanged",
+    "sha256": "49692fd6f64f538689beb2abff29f4c071634d1fe58db0f26d887ac407ba2b83",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/LegacyUtil.java",
+    "change": "unchanged",
+    "sha256": "73057f3da0aad81e01293dbf1d124e3ec5d057f69292776d4513a1f2263027b6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/LimitedLogger.java",
+    "change": "unchanged",
+    "sha256": "bc5c21185d586edc364e981206a142d6088b727d0191a9f2cc48ced07bdc7124",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/Log.java",
+    "change": "unchanged",
+    "sha256": "a928ed4b84bf132fe30a3f4281e5c2a44e311fd81d04c07f062292d810b7c1c1",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/LoggedTimer.java",
+    "change": "unchanged",
+    "sha256": "babe3200e7de19962199461cf2d028a12b2e9cdcecc58146ddf98257d3676a5a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/MathUtil.java",
+    "change": "unchanged",
+    "sha256": "126703e289d52cfd593b64717d4315c3fdb90f58736cfffe8b5cc21c95ae1f58",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/ReflectionUtil.java",
+    "change": "unchanged",
+    "sha256": "ed2b23aa5c4d6a458996b98cb98d540b0bcdd8f8af9d4db6fc690c2d85140707",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/StringUtil.java",
+    "change": "modified",
+    "sha256": "6956b52b6b9bf758d9c5914f9b39c00d9279bb95d2da3687dc5d3184b43a8558",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/Substring.java",
+    "change": "unchanged",
+    "sha256": "684d0850b66f8aac9aac5bff2774687c222a2f94808f5b53dd76f70263f3e55e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/Translator.java",
+    "change": "unchanged",
+    "sha256": "9a17848f7cb62cd79072590f9a221294c283acffd87fdb33d00900882f0b12c4",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/java/mezz/jei/util/package-info.java",
+    "change": "unchanged",
+    "sha256": "d8281d328bcfe946ff4923d6f5fad208f42fae9a517561ee7bd5c253f4d057ea",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/ar_sa.lang",
+    "change": "unchanged",
+    "sha256": "fd5ad325121d2765b45a49cf76cd0fad78b37e056d5b546a54dfa0a9668cb449",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/bg_bg.lang",
+    "change": "unchanged",
+    "sha256": "b6158b4130da1f983f67d6c92cebf83e92738393d300488d46651c2281137a47",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/cs_cz.lang",
+    "change": "unchanged",
+    "sha256": "024a36a6112c3b0dfd3ba21e11e8f76875b2efedb9d9e281e4c3ca64e3c56f63",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/de_de.lang",
+    "change": "unchanged",
+    "sha256": "922e98b1ad5dd94ec3bff446c24e31fc234a7613d1169c0ad9009402cc68bcb6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/el_gr.lang",
+    "change": "unchanged",
+    "sha256": "3f6e620358ef4d29e61eb3c8a565f566e0e3dbcaae37f49cbe76296e98a5358f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/en_au.lang",
+    "change": "unchanged",
+    "sha256": "c132399f9fce70add34fd4f7088ff02a1cfa5bb98c4c4a604298eff9aa397e7a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/en_us.lang",
+    "change": "modified",
+    "sha256": "f91dc299eee61c74717bd1012014dd1affd832e0337169b708e45e3c4afea544",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/es_es.lang",
+    "change": "unchanged",
+    "sha256": "5718ffe8ce76347c707c6daa9286110765dd992761d44d3752eebeacd3ac2b01",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/fi_fi.lang",
+    "change": "unchanged",
+    "sha256": "ef6f85dbac8e95a9986c4a4990fce0c60ada7e052e0c93c78cf2c707484a4949",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/fr_fr.lang",
+    "change": "unchanged",
+    "sha256": "fffe36f9cc39c5d57e50f0fc27ffbb579ce931616911d744b87780a5bd8777ff",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/he_il.lang",
+    "change": "unchanged",
+    "sha256": "ce11f03b0fa4e0fe6243a91604d53f94b0b269c2dbcda07147fbc6904498453d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/it_it.lang",
+    "change": "unchanged",
+    "sha256": "81871c6ec11435ee87e67ee8c9611910362a19fff93744bc5d4fa6635cabf73e",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/ja_jp.lang",
+    "change": "unchanged",
+    "sha256": "fec7d4acc9201c3d2d96380e5c7fa8d6b427a10edaafaeaaf2975780dfe873d7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/ko_kr.lang",
+    "change": "unchanged",
+    "sha256": "204f3bd62e827c0b85327627544359a692d0f22da4c76817547506b86db32f00",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/lt_lt.lang",
+    "change": "unchanged",
+    "sha256": "6cac71897752671fda364c694b361d811e730fb1b8c232fa80ebe7bb1b4b1bdb",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/nb_no.lang",
+    "change": "unchanged",
+    "sha256": "6b03a1bd2f9a04cf6e9356ceb5cb00ad1cddbbfb75c5eae472600a8399eef9f7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/pl_pl.lang",
+    "change": "unchanged",
+    "sha256": "41f6882bd9b4207eafafac952736a6d9dd6a99059a7ee00ffcc27ae7207c0c78",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/pt_br.lang",
+    "change": "unchanged",
+    "sha256": "aabed894384451428252824b11ab0972729f1ac065d9e802828b793956cac252",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/ru_ru.lang",
+    "change": "unchanged",
+    "sha256": "b0b7f9410e11995c55ac872e10e3378e3afe0156dfd0a0997694eb7464ebd543",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/sv_se.lang",
+    "change": "unchanged",
+    "sha256": "204c232dc5c2b27a0fefc9d2011c306cec1ee2222050935078fc390b72557dc2",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/tr_tr.lang",
+    "change": "unchanged",
+    "sha256": "faf022c15af60d19fd5980af2a553a3a44ec081701e7e3619aeacff3ed2826af",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/uk_ua.lang",
+    "change": "unchanged",
+    "sha256": "39cd6e53bfcdd440e221625cd383f997cb9b6d44f303ba233bdbc4f01d2ede25",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/zh_cn.lang",
+    "change": "modified",
+    "sha256": "23c84ec42602d793645b9c0cf614650612fbc6d9457f5fef5419380537d3964f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/lang/zh_tw.lang",
+    "change": "unchanged",
+    "sha256": "ab8559a36c0fcf6f927465c3f3b7a21d266d0c36625b2cdb6a32c2b6266d40c8",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/logo.png",
+    "change": "unchanged",
+    "sha256": "8cc00fb9795e0e72c6bd310a9d608a1caf5363a8d1a288e7074e2df2a34944e9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/button_disabled.png",
+    "change": "unchanged",
+    "sha256": "04cec890651c2aa419d757ef7fc94a03823f8543131e6882c39aecd816df84c5",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/button_enabled.png",
+    "change": "unchanged",
+    "sha256": "f87216d7c3d78dc99be56b87859342a270b3f9675317cfd735f905b834e439cc",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/button_highlight.png",
+    "change": "unchanged",
+    "sha256": "7e21e7b74846f9a3eb13a9fe05766037cfe1bb812b627a375ec9f347e510f925",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/catalyst_tab.png",
+    "change": "unchanged",
+    "sha256": "18e57f38bd0294ee0c1a8a55ac1216439c2f2d7774b0b430807bbba877e84c9b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/debug.png",
+    "change": "unchanged",
+    "sha256": "153d9dd02d5e97c397e041c8dc3195a0ea3715947872bb1fc02070c58809508a",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/gui_background.png",
+    "change": "unchanged",
+    "sha256": "ec74f5866a2a5018da666c2584a8f65036ba2dd03352f090e969ab56cc1e24d7",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/gui_vanilla.png",
+    "change": "unchanged",
+    "sha256": "ab1fe2187c504e7a7d4d6e2aa768e561f7f129e4e086a7bd4e01f00b985dfa4d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/arrow_next.png",
+    "change": "unchanged",
+    "sha256": "72ccdd2f992149c40b9224f6046a5843d0ad5ad6f1ddbe308ef767ca286990a3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/arrow_previous.png",
+    "change": "unchanged",
+    "sha256": "c08e840102e5901e41ae78ed55ee9a5798288f2308c2d81d57ab8417e763829f",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/bookmark_button_disabled.png",
+    "change": "unchanged",
+    "sha256": "eb32fa0e279a7bc83d5ae5636952235a3cbd94f2f928a382c2a399c73754f11b",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/bookmark_button_enabled.png",
+    "change": "unchanged",
+    "sha256": "535d8ac52f4c9f1ef20db9b8126e746ac0949a3174c20bba5a207d16dfb4f310",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/config_button.png",
+    "change": "unchanged",
+    "sha256": "47c6c0689f96cfa7f341ae554abc2237c84498d48a299f147714039926012286",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/config_button_cheat.png",
+    "change": "unchanged",
+    "sha256": "4792c15c371fcf1c2d5b3a4df6c530ff2ba6416f9c903f7ddc2559f3dba1bbfc",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/favorite_disabled.png",
+    "change": "unchanged",
+    "sha256": "001761ae9338b076b8c733385e2d3f7c775c04fe2bd92246be6454d55aaf253c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/favorite_enabled.png",
+    "change": "unchanged",
+    "sha256": "fa3060389914e4871d125b5edee5c180eaef468181e4e2ccd5339d8ae17987c0",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/flame.png",
+    "change": "unchanged",
+    "sha256": "3e174b3b8b7d24c365765b0b53f7c8604574f1c9f298e42ea10d5b4c20880917",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/info.png",
+    "change": "unchanged",
+    "sha256": "90540b93dc474ac1842346ef1f6ebe8db279a5233b16ce20046c985af268013c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/recipe_bookmark_icon.png",
+    "change": "unchanged",
+    "sha256": "e2c13677d7b2e204f6129f31f2e313785a65ce6a5edbac14a6a061e5fb1e7ff3",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/recipe_transfer.png",
+    "change": "unchanged",
+    "sha256": "153421b5feec0b8df1e7ac5baba8538d46c0235b3f17167d2c6d195fc26cd34c",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/icons/shapeless_icon.png",
+    "change": "unchanged",
+    "sha256": "ab802dcb61244aa00c036a2e75c58d19ad626f1826da60be1dd11e034f06aa30",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/search_background.png",
+    "change": "unchanged",
+    "sha256": "b72f3c4ecbaac19f104b334f72987c6e3b152c96a5c942662ee5cdd145f370da",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/single_recipe_background.png",
+    "change": "unchanged",
+    "sha256": "b3d30108dc1880d674561c7e08c422f4738acabb81ef0ae922677931de4e684d",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/slot.png",
+    "change": "unchanged",
+    "sha256": "e7bba48e51b49054abd626c661a27c10f1901cc07d42dd1974d43cb8f639f7b9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/tab_selected.png",
+    "change": "unchanged",
+    "sha256": "4c0a98006cf5d1368334350ee2baac1d0feccca2c4af69422b268763e92dd991",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/assets/jei/textures/gui/tab_unselected.png",
+    "change": "unchanged",
+    "sha256": "e70dd52324782780278965f76c0603f3c9830022b7445770c529210e7fe5adc9",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/jei_at.cfg",
+    "change": "unchanged",
+    "sha256": "7c55ffdd4b6c3c390cf24b45b0a452e8923959c8fbc2f4ab13effe03a4f520ca",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/mcmod.info",
+    "change": "unchanged",
+    "sha256": "60cd68be636395cce95a0201c576662ef5d3dde6ec8e82804b2ab12c8b900def",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/main/resources/pack.mcmeta",
+    "change": "unchanged",
+    "sha256": "42473e971320833cbb1e12c17275ffc14c983183537196038f51f030827c8af6",
+    "licenseEvidence": "MIT (upstream default)",
+    "basis": "HEI LICENSE.txt; baseline comparison"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/Ae2CompatibilityChecks.java",
+    "change": "added",
+    "sha256": "9aa7d988ecf0f4469e175a4907e4945dedf8c2a836799e5364156cc833a57705",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/ChainPlannerChecks.java",
+    "change": "added",
+    "sha256": "e26621256f354d76aadf9492a110766007d05fa4819222c62b5de992440f45a3",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/GroupDragChecks.java",
+    "change": "added",
+    "sha256": "a827d6dc0189db76b8e7e660d85f2c2260ada132244039dd0aab79bb96523e7c",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/InteractionChecks.java",
+    "change": "added",
+    "sha256": "858026b4fca54a70dc0ed0d50614534b7c904d47333b96bc3c93b8ec74db1b95",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/MaterialPanelChecks.java",
+    "change": "added",
+    "sha256": "9341cd0a343c84c32d141e86c57c3b5f181ed9f49b1cb650fc37dcdee808b580",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/OptionalLinkageChecks.java",
+    "change": "added",
+    "sha256": "96ea53e4419cf2c02130b066225f878d7ab45db84819219b575d41a546b2806e",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/PatternBatchChecks.java",
+    "change": "added",
+    "sha256": "441935b5aae9e39d70ea5646d16912cbe76408035f0b377e441de49deab70cb8",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/PreferenceChecks.java",
+    "change": "added",
+    "sha256": "44b91d4ce9843c9d65ca2381e1219f1fe48cc0d1a524027a4440144a1894bbdc",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/RecipeChainChecks.java",
+    "change": "added",
+    "sha256": "52ce96fab647220a0e63f22084365328d9bb0ce189399b2068429226d9752634",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/RecipeEditChecks.java",
+    "change": "added",
+    "sha256": "b3937c19f70260dbad62e14f2f35a18a152d2e694c7ec18638026e28eaf96bab",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/RemainderFlowChecks.java",
+    "change": "added",
+    "sha256": "218419b4dd374bdebee1f330f44410a96c8703ec99e17930f546143bd003ca0a",
+    "licenseEvidence": "LGPL-3.0-or-later (local contribution scope)",
+    "basis": "HEI LICENSE.txt; baseline comparison; CONTRIBUTION_LICENSE.md"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/StringInternerChecks.java",
+    "change": "added",
+    "sha256": "c92f4e81103758bb997161e31105fe2ee3e3f4b7317c1791d5d09cf608c9c01e",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "src/test/java/mezz/jei/nova/SuiteChecks.java",
+    "change": "added",
+    "sha256": "180eb4641dc7c9f080047d6004399db27f08642a00d50c571416efc853b1c654",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "third-party/jei-unofficial/LICENSE-LGPL-3.0-or-later.txt",
+    "change": "added",
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "licenseEvidence": "license document",
+    "basis": "verbatim license text"
+  },
+  {
+    "path": "third-party/jei-unofficial/LICENSE.txt",
+    "change": "added",
+    "sha256": "108c93a97f3011c196b8226f5019a9c09ade318fe3a802be2f7f5ddb2c3a0d04",
+    "licenseEvidence": "license document",
+    "basis": "verbatim license text"
+  },
+  {
+    "path": "tools/check_binary_compatibility.py",
+    "change": "added",
+    "sha256": "966f99923f9ba6b892b3db0ec37326b62c94b0d2324fbd110e7252825ba3efe2",
+    "licenseEvidence": "MIT (local additions; third-party provenance retained)",
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+  },
+  {
+    "path": "tags.properties",
+    "change": "added",
+    "sha256": "4273a24983869f3f6a1b5b1383dd79bd4fc93e242c9783c48ee901d5d64108f7",
+    "licenseEvidence": "MIT (local build configuration)",
+    "basis": "CONTRIBUTION_LICENSE.md; required by injectTags"
+  },
+  {
+    "path": "REFERENCE.md",
+    "change": "release preparation",
+    "sha256": "298828c104e2fbb27b4da547aafd5fad879432447aa4da00071b43b50362603f",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "许可核查.md",
+    "change": "release preparation",
+    "sha256": "4dffb120bb59b04671df8027abf7ca303a33fa77dd1581daf20713eb1604bc7a",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "RELINK.md",
+    "change": "release preparation",
+    "sha256": "561247dbd6e70b1853ffe68c1c7f568f3f6468fc15875344a15c44498a364f01",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "CONTRIBUTION_LICENSE.md",
+    "change": "release preparation",
+    "sha256": "31e3cf97f8e99ed900dd093b47dd552e92faf0343075417ff72becdae810bbd8",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LGPL-COMPLIANCE.md",
+    "change": "release preparation",
+    "sha256": "90108c34a46f5bd12f88f8a64fa7cdf243d3acf5f98b351633a4c09fbd5fc5b3",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "change": "release preparation",
+    "sha256": "57efd1975d434ee3590402d7687413e9a13c0d4e024cceb64203aa4c48f4e5fd",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "README.upstream.md",
+    "change": "release preparation",
+    "sha256": "29c0736dff9274cef86472cb9bb639e099502acb3b696cfba6e85aa6ee88f86d",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "CHANGES_FROM_UPSTREAM.md",
+    "change": "release preparation",
+    "sha256": "d6ddba7eabecf76ed09bf8637a006df92f0c32f2223d308db8fb01d5eccf7520",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "BUILD.md",
+    "change": "release preparation",
+    "sha256": "2510def0f44bd7d57552ea99e6bc731643309c147e5b874a46fe98bda581ee71",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSE-OVERVIEW.md",
+    "change": "release preparation",
+    "sha256": "be1adb11a81ba6b6698f63096d46350a0bf854b04adcc664c061872725f065ec",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/LGPL-3.0.txt",
+    "change": "release preparation",
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/LGPL-2.1.txt",
+    "change": "release preparation",
+    "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/CC-BY-2.5-SOURCE.md",
+    "change": "release preparation",
+    "sha256": "fc845acea2ef8711c9f2ab1c5ccb5992e4c40a94a926b6cdba39bda34f836e80",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "change": "release preparation",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/MIT-ADDITIONS.txt",
+    "change": "release preparation",
+    "sha256": "76a637a85599ad01cd1f76b45489ef854695ff17078833c458a4092968af5075",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/JEI-reference-NOTICES.md",
+    "change": "release preparation",
+    "sha256": "148469265d4714edc310d9ec723c4e008cbd81879596f755c80aa7fc8d178c73",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/Apache-2.0.txt",
+    "change": "release preparation",
+    "sha256": "94ad31aa9c4a50007e1a96fc95143a3366f13d0ea84e535934f6a3a1a58aa0b1",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  },
+  {
+    "path": "LICENSES/MIT-HEI.txt",
+    "change": "release preparation",
+    "sha256": "108c93a97f3011c196b8226f5019a9c09ade318fe3a802be2f7f5ddb2c3a0d04",
+    "licenseEvidence": "See LICENSE-OVERVIEW.md and original file notices",
+    "basis": "release documentation/build support"
+  }
+]

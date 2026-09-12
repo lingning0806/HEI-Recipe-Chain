@@ -1,0 +1,168 @@
+# Tooltips
+jei.tooltip.config=HEI 구성
+jei.tooltip.show.recipes=조합법 보기
+jei.tooltip.show.all.recipes=모든 조합법 보기
+jei.tooltip.delete.item=지우려면 클릭
+jei.tooltip.liquid.amount.with.capacity=%,d / %,d mB
+jei.tooltip.liquid.amount=%,d mB
+jei.tooltip.transfer=아이템 옮기기
+jei.tooltip.recipe.ore.dict=다음 광물사전 항목은 전부 허용: %s
+jei.tooltip.item.colors=색깔: %s
+jei.tooltip.shapeless.recipe=무형 조합법
+jei.tooltip.cheat.mode.button.enabled=치트 모드
+jei.tooltip.cheat.mode.how.to.disable.hotkey=%s로 활성/비활성화.
+jei.tooltip.cheat.mode.how.to.disable.no.hotkey=%s-여기를 눌러 활성/비활성화.
+jei.tooltip.recipe.by=조합법 제공: %s
+jei.tooltip.recipe.id=조합법 ID: %s
+jei.tooltip.not.enough.space=화면이 너무 작아 재료 목록을 표시할 수 없습니다.
+jei.tooltip.ingredient.list.disabled=HEI 오버레이가 비활성화 되어 있습니다.
+jei.tooltip.ingredient.list.disabled.how.to.fix=%s를 눌러 오버레이를 활성화할 수 있습니다.
+
+# Error Tooltips
+jei.tooltip.error.recipe.transfer.missing=부족한 아이템:
+jei.tooltip.error.recipe.transfer.inventory.full=인벤토리에 공간이 부족합니다.
+jei.tooltip.error.recipe.transfer.unknown=알려지지 않은 오류입니다. 로그 파일을 확인하세요.
+jei.tooltip.error.recipe.transfer.no.server=서버에 HEI가 설치되어 있어야 합니다.
+jei.tooltip.error.recipe.transfer.too.large.player.inventory=조합법이 너무 커 2x2 플레이어 조합창에 넣을 수 없습니다.
+jei.tooltip.error.crash=툴팁 에러입니다. 로그를 확인하세요.
+
+# Error Messages
+jei.chat.error.command.too.long=이 명령어를 처리하려면 서버에 HEI가 설치되어 있어야 합니다. 이 명령어는 일반 마인크래프트가 처리하기에는 너무 깁니다.
+jei.chat.error.no.cheat.permission.1=HEI의 치트 모드를 사용할 권한이 없습니다.
+jei.chat.error.no.cheat.permission.2=크리에이티브 모드이거나 /give 명령어를 사용할 권한이 있어야 합니다.
+
+# Key Bindings
+key.jei.toggleOverlay=아이템 목록 겹침 켜기/끄기
+key.jei.focusSearch=검색 창 선택
+key.jei.showRecipe=아이템 조합법 보기
+key.jei.showUses=아이템 사용법 보기
+key.jei.recipeBack=이전 아이템 조합법 보기
+key.jei.toggleCheatMode=아이템 치트 모드 켜기/끄기
+key.jei.previousPage=이전 페이지 보이기
+key.jei.nextPage=다음 페이지 보이기
+
+# Config
+config.jei.default=기본값
+config.jei.valid=현재
+
+config.jei.title=%MODNAME 구성
+
+config.jei.mode=모드
+config.jei.mode.comment=HEI가 작동하는 모드를 바꿉니다.
+config.jei.mode.cheatItemsEnabled=아이템 치트 모드
+config.jei.mode.cheatItemsEnabled.comment=아이템의 조합법을 보여주는 대신 아이템을 얻습니다.
+config.jei.mode.editEnabled=아이템 숨기기 모드
+config.jei.mode.editEnabled.comment=아이템 리스트에서 선택하여 아이템을 숨기고 보입니다.
+
+config.jei.interface=인터페이스
+config.jei.interface.comment=인터페이스에 관련된 설정들입니다.
+config.jei.interface.overlayEnabled=아이템 목록 활성화됨
+config.jei.interface.overlayEnabled.comment=아이템들의 목록을 열려 있는 GUI 옆에 엽니다.
+
+config.jei.search=검색 설정들
+config.jei.search.comment=검색에 관련된 설정들입니다.
+config.jei.search.modNameSearchMode=@ 붙여서 모드 이름 검색하기
+config.jei.search.modNameSearchMode.comment="@" 를 모드 이름 앞에 붙여 모드 이름을 기준으로 검색할 수 있도록 합니다.
+config.jei.search.tooltipSearchMode=# 붙여서 툴팁 내용 검색하기
+config.jei.search.tooltipSearchMode.comment="#"를 붙여 툴팁 내용을 검색할 수 있도록 합니다.
+config.jei.search.oreDictSearchMode=$ 붙여서 광물 사전 검색하기
+config.jei.search.oreDictSearchMode.comment="$"를 붙여 광물 사전을 검색합니다.
+config.jei.search.creativeTabSearchMode=%% 붙여 크리에이티브 탭 이름으로 검색하기
+config.jei.search.creativeTabSearchMode.comment="%"를 붙여 크리에이티브 탭 이름으로 검색합니다.
+config.jei.search.colorSearchMode=^ 붙여 색깔로 검색하기
+config.jei.search.colorSearchMode.comment="^"를 붙여 아이템 색깔로 검색합니다.
+config.jei.search.resourceIdSearchMode=& 붙여서 리소스 ID로 검색하기
+config.jei.search.resourceIdSearchMode.comment="&"를 붙여 리소스 ID로 검색합니다.
+
+config.jei.advanced=고급
+config.jei.advanced.comment=HEI의 고급 기능들에 대해 설정합니다.
+config.jei.advanced.itemBlacklist=아이템 금지 목록
+config.jei.advanced.itemBlacklist.comment=아이템 목록에 표시하지 않을 아이템들의 목록입니다. 형식: modId[:이름[:메타데이터]]. 수정 모드는 자동으로 항목을 추가/삭제할 것입니다.
+config.jei.advanced.colorSearchEnabled=색깔 검색 활성화
+config.jei.advanced.colorSearchEnabled.comment=아이템들을 색깔을 기준으로 검색하고 검색 가능한 색깔들을 아이템 목록의 툴팁에 표시합니다.
+config.jei.advanced.debugModeEnabled=디버그 모드
+config.jei.advanced.debugModeEnabled.comment=HEI 개발자들에게만 유용한 항목입니다. 몇천 개의 테스트 아이템과 몇몇 디버그용 조합법을 추가합니다.
+config.jei.advanced.centerSearchBarEnabled=중앙 검색 창
+config.jei.advanced.centerSearchBarEnabled.comment=HEI의 검색 창을 아래쪽 중앙으로 이동합니다.
+config.jei.advanced.modNameFormat=모드 이름 형식
+config.jei.advanced.modNameFormat.comment=HEI 창에서 모드 이름의 표시 양식을 설정합니다. 양식을 지우려면 빈칸으로 두세요.
+config.jei.advanced.maxColumns=최대 너비
+config.jei.advanced.maxColumns.comment=재료 목록의 최대 너비를 설정합니다
+config.jei.advanced.giveMode=지급 모드
+config.jei.advanced.giveMode.comment=HEI가 아이템을 인벤토리에 바로 지급할지(inventory), 아니면 커서가 아이템을 잡게 할 지(mouse_pickup) 결정합니다.
+
+# Hide Ingredients Mode
+gui.jei.editMode.description=HEI 아이템 목록 수정 모드
+gui.jei.editMode.description.hide=숨기려면 %CTRL-클릭하세요
+gui.jei.editMode.description.hide.wild=와일드카드로 숨기려면 %CTRL-우클릭하세요
+
+# PC/Linux Control Key
+key.jei.ctrl=CTRL
+# Mac Command Key
+key.jei.ctrl.mac=CMD
+
+# Recipe Categories
+gui.jei.category.craftingTable=조합대
+gui.jei.category.smelting=화로
+gui.jei.category.smelting.experience=%s 경험치
+gui.jei.category.fuel=화로 연료
+gui.jei.category.fuel.smeltCount.single=1개 아이템을 굽습니다.
+gui.jei.category.fuel.smeltCount=%s개 아이템을 굽습니다.
+gui.jei.category.brewing=양조기
+gui.jei.category.brewing.steps=단계: %s개
+gui.jei.category.itemInformation=설명
+
+# DEBUG (for debug mode, do not need translation)
+description.jei.wooden.door.1=Wooden Doors allow you to block monsters from entering your building.\nTesting sentences.
+description.jei.wooden.door.2=Clicking on a door changes its state from open to closed and visa versa.
+description.jei.wooden.door.3=Wooden Doors can be opened/closed via Redstone Circuits.jei.tooltip.bookmarks=HEI Bookmarks
+
+# New HEI lang keys
+config.jei.rendering=렌더링
+config.jei.rendering.comment=HEI의 렌더링을 설정합니다
+config.jei.misc=기타
+config.jei.misc.comment=HEI의 기타 설정들입니다.
+
+config.jei.search.searchAdvancedTooltips=고급 툴팁 검색
+config.jei.search.searchAdvancedTooltips.comment=검색 트리에 고급 툴팁을 포함시킵니다. [검색 트리를 다시 불러옵니다!]
+
+config.jei.search.searchStrippedDiacritics=다이어크리틱/발음 구별 기호 제외 검색
+config.jei.search.searchStrippedDiacritics.comment=검색 트리에 다이어크리틱/발음 구별 기호를 제거한 문자열을 포함시킵니다. [검색 트리를 다시 불러옵니다!]
+
+config.jei.advanced.asyncSearchTreeBuilding=비동기 검색 트리 빌드
+config.jei.advanced.asyncSearchTreeBuilding.comment=검색 트리를 여러 스레드에서 동시에 빌드합니다. HEI를 불러오는 중 비정상적으로 높은 CPU 부하가 걸린다면 이 옵션을 끄세요.
+
+config.jei.advanced.addBookmarksToFront=새 북마크를 맨 앞으로
+config.jei.advanced.addBookmarksToFront.comment=활성화시 새 북마크를 북마크 목록 맨 앞에 추가합니다.
+
+config.jei.misc.mouseClickToSeeRecipes=클릭하여 제작법/사용법 표시
+config.jei.misc.mouseClickToSeeRecipes.comment=비활성화시 재료를 클릭해도 아이템의 제작/사용법을 표시하지 않습니다.
+
+config.jei.rendering.bufferIngredientRenders=재료 렌더링 버퍼
+config.jei.rendering.bufferIngredientRenders.comment=렌더 버퍼를 이용하여 지나치게 잦은 아이템 렌더링 호출을 막습니다. 메뉴 프레임이 2배~3배 향상되나 마법 부여 효과나 애니메이션이 정상적으로 동작하지 않을 것입니다.
+
+config.jei.interface.defaultFluidContainerItem=기본 유체 컨테이너 아이템
+
+jei.tooltip.bookmarks=HEI 북마크
+jei.tooltip.bookmarks.usage.nokey=조작 설정에서 HEI 북마크용 키를 할당하세요.
+jei.tooltip.bookmarks.usage.key=마우스 커서가 재료를 가리키는 상태에서 "%s"를 눌러 북마크에 추가합니다.
+jei.tooltip.bookmarks.not.enough.space=북마크를 표시하기에는 공간이 부족합니다.
+
+key.jei.toggleEditMode=숨김/편집 모드 활성/비활성화
+key.jei.bookmark=북마크된 재료를 추가/제거합니다.
+key.hei.toggleBookmarkOverlay=북마크된 재료를 숨김/표시합니다.
+config.jei.interface.bookmarkOverlayEnabled=북마크 보이기
+config.jei.interface.bookmarkOverlayEnabled.comment=열린 GUI 옆에 북마크 목록을 표시합니다.
+config.jei.advanced.maxRecipeGuiHeight=최대 조합법 창 높이
+config.jei.advanced.maxRecipeGuiHeight.comment=조합법 창의 최대 높이를 설정합니다.
+config.jei.advanced.optimizeMemoryUsage=메모리 사용량 최적화
+config.jei.advanced.optimizeMemoryUsage.comment=HEI 메모리 사용량 최적화를 활성화합니다.
+config.jei.advanced.ultraLowMemoryUsage=메모리 최대 절약 모드
+
+config.jei.advanced.ultraLowMemoryUsage.comment=메모리 최대 절약모드를 활성화합니다. 검색이 매우 느려질 수 있습니다.
+config.jei.misc.tooltipShowRecipeBy=툴팁에 '레시피 제공자'를 표시합니다.
+config.jei.misc.tooltipShowRecipeBy.comment=툴팁에 레시피가 언제 변경되었는지 표시합니다.
+config.jei.interface.defaultFluidContainerItem.comment=메뉴에서 유체 재료를 클릭할 시 표시할 기본 유체 보관 아이템을 지정합니다, (형식: 아이템 이름@메타데이터)
+
+config.jei.misc.hideBottomLeftCornerBookmarkButton=왼쪽 하단 모서리 북마크 버튼 숨기기
+config.jei.misc.hideBottomLeftCornerBookmarkButton.comment=왼쪽 하단 모서리 북마크 버튼을 숨길지 여부

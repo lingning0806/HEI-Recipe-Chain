@@ -1,0 +1,68 @@
+package mezz.jei.gui.elements;
+
+import java.awt.Rectangle;
+import java.util.ArrayList;
+import java.util.List;
+
+import net.minecraftforge.fml.client.config.HoverChecker;
+import net.minecraft.client.Minecraft;
+
+import mezz.jei.api.gui.IDrawable;
+import mezz.jei.config.Constants;
+import mezz.jei.gui.TooltipRenderer;
+
+public abstract class GuiIconToggleButton {
+	private final IDrawable offIcon;
+	private final IDrawable onIcon;
+	private final GuiIconButton button;
+	private final HoverChecker hoverChecker;
+
+	public GuiIconToggleButton(IDrawable offIcon, IDrawable onIcon) {
+		this.offIcon = offIcon;
+		this.onIcon = onIcon;
+		this.button = new GuiIconButton(2, new DrawableBlank(0, 0), (mc, x, y) -> true);
+		this.hoverChecker = new HoverChecker(this.button, 0);
+	}
+
+	public void updateBounds(Rectangle area) {
+		this.button.width = area.width;
+		this.button.height = area.height;
+		this.button.x = area.x;
+		this.button.y = area.y;
+	}
+
+	public void draw(Minecraft minecraft, int mouseX, int mouseY, float partialTicks) {
+		this.button.drawButton(minecraft, mouseX, mouseY, partialTicks);
+		IDrawable icon = isIconToggledOn() ? this.onIcon : this.offIcon;
+		double xOffset = this.button.x + (this.button.width - icon.getWidth()) / 2.0;
+		double yOffset = this.button.y + (this.button.height - icon.getHeight()) / 2.0;
+		icon.draw(minecraft, (int) xOffset, (int) yOffset);
+	}
+
+	public final boolean isMouseOver(int mouseX, int mouseY) {
+		return this.hoverChecker.checkHover(mouseX, mouseY);
+	}
+
+	public final boolean handleMouseClick(int mouseX, int mouseY) {
+		Minecraft minecraft = Minecraft.getMinecraft();
+		return button.mousePressed(minecraft, mouseX, mouseY) && onMouseClicked(mouseX, mouseY);
+	}
+
+	public final void drawTooltips(Minecraft minecraft, int mouseX, int mouseY) {
+		if (isMouseOver(mouseX, mouseY)) {
+			List<String> tooltip = new ArrayList<>();
+			getTooltips(tooltip);
+			TooltipRenderer.drawHoveringText(minecraft, tooltip, mouseX, mouseY, Constants.MAX_TOOLTIP_WIDTH);
+		}
+	}
+
+	public final GuiIconButton getInternalButton() {
+		return this.button;
+	}
+
+	protected abstract void getTooltips(List<String> tooltip);
+
+	protected abstract boolean isIconToggledOn();
+
+	protected abstract boolean onMouseClicked(int mouseX, int mouseY);
+}

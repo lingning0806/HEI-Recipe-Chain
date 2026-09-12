@@ -1,0 +1,76 @@
+package mezz.jei.startup;
+
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableMap;
+import it.unimi.dsi.fastutil.objects.ObjectArrayList;
+import it.unimi.dsi.fastutil.objects.Reference2ObjectOpenHashMap;
+import mezz.jei.api.ingredients.IIngredientHelper;
+import mezz.jei.api.ingredients.IIngredientRenderer;
+import mezz.jei.api.ingredients.IModIngredientRegistration;
+import mezz.jei.api.recipe.IIngredientType;
+import mezz.jei.ingredients.IngredientBlacklistInternal;
+import mezz.jei.ingredients.IngredientRegistry;
+import mezz.jei.util.ErrorUtil;
+import mezz.jei.util.IngredientSet;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+
+public class ModIngredientRegistration implements IModIngredientRegistration {
+	private final Map<IIngredientType, Collection> allIngredientsMap = new Reference2ObjectOpenHashMap<>();
+	private final Map<IIngredientType, IIngredientHelper> ingredientHelperMap = new Reference2ObjectOpenHashMap<>();
+	private final Map<IIngredientType, IIngredientRenderer> ingredientRendererMap = new Reference2ObjectOpenHashMap<>();
+	private final List<IIngredientType> craftableIngredientsMap = new ObjectArrayList<>();
+
+	@Override
+	public <V> void register(IIngredientType<V> ingredientType, Collection<V> allIngredients, IIngredientHelper<V> ingredientHelper, IIngredientRenderer<V> ingredientRenderer) {
+		ErrorUtil.checkNotNull(ingredientType, "ingredientType");
+		ErrorUtil.checkNotNull(allIngredients, "allIngredients");
+		ErrorUtil.checkNotNull(ingredientHelper, "ingredientHelper");
+		ErrorUtil.checkNotNull(ingredientRenderer, "ingredientRenderer");
+
+		allIngredientsMap.put(ingredientType, allIngredients);
+		ingredientHelperMap.put(ingredientType, ingredientHelper);
+		ingredientRendererMap.put(ingredientType, ingredientRenderer);
+	}
+
+	@Override
+	public <V> void markAsCraftable(IIngredientType<V> ingredientType) {
+		craftableIngredientsMap.add(ingredientType);
+	}
+
+	@Override
+	@Deprecated
+	public <V> void register(Class<V> ingredientClass, Collection<V> allIngredients, IIngredientHelper<V> ingredientHelper, IIngredientRenderer<V> ingredientRenderer) {
+		ErrorUtil.checkNotNull(ingredientClass, "ingredientClass");
+		register(() -> ingredientClass, allIngredients, ingredientHelper, ingredientRenderer);
+	}
+
+	public IngredientRegistry createIngredientRegistry(IModIdHelper modIdHelper, IngredientBlacklistInternal blacklist) {
+		Map<IIngredientType, IngredientSet> ingredientsMap = new Reference2ObjectOpenHashMap<>();
+		for (Map.Entry<IIngredientType, Collection> entry : allIngredientsMap.entrySet()) {
+			IIngredientType ingredientType = entry.getKey();
+			@SuppressWarnings("unchecked")
+			IngredientSet ingredientSet = createIngredientSet(ingredientType, entry.getValue());
+			ingredientsMap.put(ingredientType, ingredientSet);
+		}
+
+		return new IngredientRegistry(
+			modIdHelper,
+			blacklist,
+			ingredientsMap,
+			ImmutableMap.copyOf(ingredientHelperMap),
+			ImmutableMap.copyOf(ingredientRendererMap),
+			ImmutableList.copyOf(craftableIngredientsMap)
+		);
+	}
+
+	private <T> IngredientSet<T> createIngredientSet(IIngredientType<T> ingredientType, Collection<T> ingredients) {
+		@SuppressWarnings("unchecked")
+		IIngredientHelper<T> ingredientHelper = ingredientHelperMap.get(ingredientType);
+		IngredientSet<T> ingredientSet = IngredientSet.create(ingredientType, ingredientHelper);
+		ingredientSet.addAll(ingredients);
+		return ingredientSet;
+	}
+}

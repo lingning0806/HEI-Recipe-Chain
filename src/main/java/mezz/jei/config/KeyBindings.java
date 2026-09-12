@@ -1,0 +1,80 @@
+package mezz.jei.config;
+
+import com.google.common.collect.ImmutableList;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.settings.KeyBinding;
+import net.minecraftforge.client.settings.KeyConflictContext;
+import net.minecraftforge.client.settings.KeyModifier;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
+import org.lwjgl.input.Keyboard;
+
+import java.util.List;
+
+public final class KeyBindings {
+	private static final String categoryName = Constants.MOD_ID + " (" + Constants.NAME + ')';
+
+	public static final KeyBinding toggleOverlay;
+	public static final KeyBinding focusSearch;
+	public static final KeyBinding toggleCheatMode;
+	public static final KeyBinding toggleEditMode;
+	public static final KeyBinding showRecipe;
+	public static final KeyBinding showUses;
+	public static final KeyBinding recipeBack;
+	public static final KeyBinding previousPage;
+	public static final KeyBinding nextPage;
+	public static final KeyBinding bookmark;
+	public static final KeyBinding toggleBookmarkOverlay;
+	public static final KeyBinding crafting;
+    public static final KeyBinding patternBatch;
+    public static final KeyBinding pullGroup,groupView,materialDetails,projectRecipe;
+    public static final KeyBinding bookmarkRecipe;
+    public static final KeyBinding planRecipeTree;
+    public static final KeyBinding cancelRecipeDrag;
+	private static final List<KeyBinding> allBindings;
+
+    static {
+		allBindings = ImmutableList.of(
+			toggleOverlay = new KeyBinding("key.jei.toggleOverlay", KeyConflictContext.GUI, KeyModifier.CONTROL, Keyboard.KEY_O, categoryName),
+			focusSearch = new KeyBinding("key.jei.focusSearch", KeyConflictContext.GUI, KeyModifier.CONTROL, Keyboard.KEY_F, categoryName),
+			toggleCheatMode = new KeyBinding("key.jei.toggleCheatMode", KeyConflictContext.GUI, Keyboard.KEY_NONE, categoryName),
+			toggleEditMode = new KeyBinding("key.jei.toggleEditMode", KeyConflictContext.GUI, Keyboard.KEY_NONE, categoryName),
+			showRecipe = new KeyBinding("key.jei.showRecipe", KeyConflictContext.GUI, Keyboard.KEY_R, categoryName),
+			showUses = new KeyBinding("key.jei.showUses", KeyConflictContext.GUI, Keyboard.KEY_U, categoryName),
+			recipeBack = new KeyBinding("key.jei.recipeBack", KeyConflictContext.GUI, Keyboard.KEY_BACK, categoryName),
+			previousPage = new KeyBinding("key.jei.previousPage", KeyConflictContext.GUI, Keyboard.KEY_PRIOR, categoryName),
+			nextPage = new KeyBinding("key.jei.nextPage", KeyConflictContext.GUI, Keyboard.KEY_NEXT, categoryName),
+			bookmark = new KeyBinding("key.jei.bookmark", KeyConflictContext.GUI, KeyModifier.NONE, Keyboard.KEY_A, categoryName),
+			toggleBookmarkOverlay = new KeyBinding("key.hei.toggleBookmarkOverlay", KeyConflictContext.GUI, Keyboard.KEY_NONE, categoryName),
+            pullGroup = new KeyBinding("key.novahei.pullGroup",KeyConflictContext.GUI,KeyModifier.SHIFT,Keyboard.KEY_T,categoryName),
+            groupView = new KeyBinding("key.novahei.groupView",KeyConflictContext.GUI,KeyModifier.SHIFT,Keyboard.KEY_V,categoryName),
+            materialDetails = new KeyBinding("key.novahei.materialDetails",KeyConflictContext.GUI,KeyModifier.SHIFT,Keyboard.KEY_M,categoryName),
+            projectRecipe = new KeyBinding("key.novahei.projectRecipe",KeyConflictContext.GUI,KeyModifier.SHIFT,Keyboard.KEY_G,categoryName),
+            patternBatch = new KeyBinding("key.novahei.patternBatch", KeyConflictContext.GUI, KeyModifier.SHIFT, Keyboard.KEY_P, categoryName),
+            cancelRecipeDrag = new KeyBinding("key.novahei.cancelRecipeDrag", KeyConflictContext.GUI, KeyModifier.NONE, Keyboard.KEY_X, categoryName),
+			bookmarkRecipe = new KeyBinding("key.novahei.bookmarkRecipe", KeyConflictContext.GUI, KeyModifier.SHIFT, Keyboard.KEY_A, categoryName),
+            planRecipeTree = new KeyBinding("key.novahei.planRecipeTree", KeyConflictContext.GUI, KeyModifier.SHIFT, Keyboard.KEY_F, categoryName),
+			crafting = new KeyBinding("key.hei.crafting", KeyConflictContext.GUI, KeyModifier.SHIFT, Keyboard.KEY_C, categoryName)
+		);
+	}
+
+	private KeyBindings() {
+	}
+
+	public static void init() {
+		for (KeyBinding binding : allBindings) {
+			ClientRegistry.registerKeyBinding(binding);
+		}
+	}
+
+	public static boolean isInventoryToggleKey(int keyCode) {
+		return Minecraft.getMinecraft().gameSettings.keyBindInventory.isActiveAndMatches(keyCode);
+	}
+
+	public static boolean isInventoryCloseKey(int keyCode) {
+		return keyCode == Keyboard.KEY_ESCAPE;
+	}
+
+	public static boolean isEnterKey(int keyCode) {
+		return keyCode == Keyboard.KEY_RETURN;
+	}
+}
