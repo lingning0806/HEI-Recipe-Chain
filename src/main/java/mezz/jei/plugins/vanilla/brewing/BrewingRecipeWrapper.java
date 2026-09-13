@@ -52,7 +52,11 @@ public class BrewingRecipeWrapper implements IRecipeWrapper {
 	@Override
 	public void getIngredients(IIngredients ingredients) {
 		ingredients.setInputLists(VanillaTypes.ITEM, inputs);
-		ingredients.setOutput(VanillaTypes.ITEM, potionOutput);
+		// The three potion input slots describe one full brewing batch.
+		// Publish its full yield so chained brewing does not multiply demand by three per stage.
+		ItemStack batchOutput = potionOutput.copy();
+		batchOutput.setCount(Math.multiplyExact(potionOutput.getCount(), 3));
+		ingredients.setOutput(VanillaTypes.ITEM, batchOutput);
 	}
 
 	public List getInputs() {

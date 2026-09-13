@@ -2269,10 +2269,10 @@
   },
   {
     "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/BrewingRecipeWrapper.java",
-    "change": "unchanged",
-    "sha256": "9764374035a3d9ed2033211a9813f6afbb497211bdca5804004bc7b8753aaed4",
+    "change": "modified",
+    "sha256": "1cdab0fd01d1434799c2378393f4e6801d6f82e7fe9fd9141949ca17eec7cd69",
     "licenseEvidence": "MIT (upstream default)",
-    "basis": "HEI LICENSE.txt; baseline comparison"
+    "basis": "HEI LICENSE.txt; baseline comparison; brewing1 batch-yield correction/regression"
   },
   {
     "path": "src/main/java/mezz/jei/plugins/vanilla/brewing/PotionSubtypeInterpreter.java",
@@ -3410,10 +3410,10 @@
   },
   {
     "path": "src/test/java/mezz/jei/nova/ChainPlannerChecks.java",
-    "change": "added",
-    "sha256": "e26621256f354d76aadf9492a110766007d05fa4819222c62b5de992440f45a3",
+    "change": "modified",
+    "sha256": "2cb0d677b95fe183c47b970e7b81205ddac18d854255775175732364b4884b3c",
     "licenseEvidence": "MIT (local additions; third-party provenance retained)",
-    "basis": "CONTRIBUTION_LICENSE.md; design-reference index"
+    "basis": "CONTRIBUTION_LICENSE.md; design-reference index; brewing1 batch-yield correction/regression"
   },
   {
     "path": "src/test/java/mezz/jei/nova/GroupDragChecks.java",

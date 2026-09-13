@@ -3,9 +3,11 @@
 Minecraft 1.12.2 的 HEI 非官方增强分支。维护者：**绫宁**。
 基于 [CleanroomMC/HadEnoughItems](https://github.com/CleanroomMC/HadEnoughItems) 4.29.13，设计参考 [StardustMINUS-01/JustEnoughItems](https://github.com/StardustMINUS-01/JustEnoughItems)。
 
-[下载 suite10](https://github.com/lingning0806/HEI-Recipe-Chain/releases/tag/v4.29.13-nova.10-suite10) · [使用指南](docs/USAGE.md) · [兼容与限制](docs/COMPATIBILITY.md) · [反馈问题](https://github.com/lingning0806/HEI-Recipe-Chain/issues/new/choose)
+[下载 brewing1](https://github.com/lingning0806/HEI-Recipe-Chain/releases/tag/v4.29.13-nova.11-brewing1) · [使用指南](docs/USAGE.md) · [兼容与限制](docs/COMPATIBILITY.md) · [反馈问题](https://github.com/lingning0806/HEI-Recipe-Chain/issues/new/choose)
 
 当前为 **Pre-release**。下载主模组 JAR 即可安装；独立 LGPL 组件附件用于开发，不要放入 mods。
+
+最新修复：酿造配方统一为三瓶输入、三瓶输出，避免多级药水链数量逐层乘 3。升级后请按正确目标重新生成旧药水组。
 
 ## 功能
 
